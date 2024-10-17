@@ -1,0 +1,693 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Maincampaign</title>
+    <meta name="title" content="The Most Powerful Offline Lead Conversion Data for your Business." />
+    <meta name="description" content="Seamless integration with your CRM and Facebook" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content=" " />
+    <meta property="og:title" content="The Most Powerful Offline Lead Conversion Data for your Business." />
+    <meta property="og:description" content="Seamless integration with your CRM and Facebook" />
+    <meta property="og:image" content="/meta-tag-img.png" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content=" " />
+    <meta property="twitter:title" content="The Most Powerful Offline Lead Conversion Data for your Business." />
+    <meta property="twitter:description" content="Seamless integration with your CRM and Facebook" />
+    <meta property="twitter:image" content="/meta-tag-img.png" />
+
+    <!-- SLICK MIN JS LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- SLICK MIN JS LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+        tailwind.config = {
+            theme: {
+                container: {
+                    center: true,
+                    screens: {
+                        sm: "640px",
+                        md: "768px",
+                        lg: "1024px",
+                        xl: "1440px",
+                        "2xl": "1721.01px",
+                        "3xl": "1721.01px",
+                    },
+                },
+                extend: {
+                    fontSize: {
+                        'xl-2': "22px",
+                        '3xl': "65px",
+                        '4xl': "80px",
+                    },
+                    colors: {
+                        "blue": "#3B5998",
+                        "light-blue": "#7D889E",
+                        "light-black": "#D9D9D9",
+                        "light-brown": "#464647",
+                        "light-gray": "#FAF9F6",
+                        "lavender": "#E1E1FF",
+                        "grayish-yellow": "#EEEEEC",
+                    },
+                    boxShadow: {
+                        "default": '0px 4px 30px 0px #00000026',
+                        "secondary": "0px 0px 3.3px 0px #1B335333",
+                        "dark": "0px 0px 49px 7px #00000017",
+                        "light": "0px 10px 20px 0px #00000026",
+                        "light-2": "5px 0px 15px 0px #00000026",
+                    },
+                    backgroundImage: {
+                        "linear-blue": "linear-gradient(259.08deg, #50EDFF -5.05%, #48B8DA 63.97%, #3B5998 130.42%)",
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <main class="max-w-[1920px] mx-auto">
+
+        <!-- =========================== Hero section ==================================== -->
+        <section class="flex justify-center items-center flex-col">
+            <img class="absolute pointer-events-none top-0 right-0 max-w-[1440px]"
+                src="./assets/img/svg/sec-1-bg-img.svg" alt="bg-img">
+            <div class="container max-w-[1440px] mx-auto px-3 z-50">
+                <nav class="flex justify-between mt-[77px]">
+                    <a href="/"><img src="./assets/img/svg/header-logo.svg" alt="header-logo"></a>
+                    <div class="flex gap-[50px]">
+                        <button class="text-sm font-semibold">Login or Register</button>
+                        <button
+                            class="bg-blue rounded-[60px] text-white text-sm font-semibold px-[21px] py-[12px]">Start
+                            Free Trial</button>
+                    </div>
+                </nav>
+            </div>
+            <div class="container mx-auto px-3 mt-[73px] z-50 flex flex-col justify-center items-center">
+                <h1 class="mb-3 font-bold font-thicccboi text-4xl text-center max-w-[1317px] leading-[118%]">The Most
+                    Powerful Offline Lead
+                    Conversion Data for your <span class="text-white">Business.</span></h1>
+                <p class="mb-[38px] text-white font-normal text-xl">Seamless integration with your CRM and Facebook</p>
+                <input type="email" placeholder="Enter you work email"
+                    class="px-4 pt-[19px] pb-[18px] rounded-[60px] max-w-[570px] w-full mb-[112px]">
+            </div>
+        </section>
+
+        <!-- =========================== welcome image section =========================== -->
+        <section class="relative h-[900px]">
+            <div class="container mx-auto px-3">
+                <div class="relative">
+                    <img class="absolute left-[114px] w-full max-w-[963px] max-h-[724px] top-0"
+                        src="./assets/img/png/sec-1-dashboard-img.png" alt="dashboard-img">
+                    <img class="absolute top-[194px] right-[94px] w-full max-w-[963px] max-h-[596px]"
+                        src=".//assets/img/png/sec-1-table-img.png" alt="table-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================== Dashboard section =============================== -->
+        <section class="flex justify-center items-center flex-col mb-[110px]">
+            <div class="container mx-auto flex justify-center items-center flex-col">
+                <h2 class="text-3xl font-bold leading-[116%] mb-[33px] max-w-[1010px] mx-auto text-center">See your
+                    revenue grow in
+                    real time with our dashboards.</h2>
+                <div class="flex items-center gap-4 mb-8">
+                    <p
+                        class="text-light-blue leading-[110%] text-[22px] font-medium hover:font-bold py-5 px-8 bg-light-gray border-[1px] border-light-black hover:bg-blue hover:text-white hover:border-blue transition-all duration-500 rounded-[50px] cursor-pointer">
+                        CRM Integrations</p>
+                    <p
+                        class="text-light-blue leading-[110%] text-[22px] font-medium hover:font-bold py-5 px-8 bg-light-gray border-[1px] border-light-black hover:bg-blue hover:text-white hover:border-blue transition-all duration-500 rounded-[50px] cursor-pointer">
+                        Marketing Platform Integrations</p>
+                    <p
+                        class="text-light-blue leading-[110%] text-[22px] font-medium hover:font-bold py-5 px-8 bg-light-gray border-[1px] border-light-black hover:bg-blue hover:text-white hover:border-blue transition-all duration-500 rounded-[50px] cursor-pointer">
+                        Analytics</p>
+                    <p
+                        class="text-light-blue leading-[110%] text-[22px] font-medium hover:font-bold py-5 px-8 bg-light-gray border-[1px] border-light-black hover:bg-blue hover:text-white hover:border-blue transition-all duration-500 rounded-[50px] cursor-pointer">
+                        Easy, Safe and Secured</p>
+                </div>
+                <div class="relative">
+                    <img class="absolute pointer-events-none max-w-[85px] -z-50 -bottom-12 -left-10"
+                        src="./assets/img/png/down-arrow.png" alt="down-arrow">
+                    <img class="absolute pointer-events-none max-w-[85px] -top-12 -right-9 "
+                        src="./assets/img/png/up-arrow.png" alt="up-arrow">
+                    <div
+                        class="shadow-default ps-[41px] py-[55px] z-50 pe-[60px] rounded-[48px] relative bg-white border-cyan-500 border-t-[8px]">
+                        <div class="flex gap-5 justify-start items-start mb-6">
+                            <img src="./assets/img/svg/tick-svg.svg" alt="tick-img">
+                            <p class="font-normal text-lg max-w-[1144px] ">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                                in
+                                voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+                        <div class="flex gap-5 justify-start items-start mb-6">
+                            <img src="./assets/img/svg/tick-svg.svg" alt="tick-img">
+                            <p class="font-normal text-lg max-w-[1144px] ">Sed ut perspiciatis unde omnis iste natus
+                                error
+                                sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
+                                illo
+                                inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                        </div>
+                        <div class="flex gap-5 justify-start items-start mb-6">
+                            <img src="./assets/img/svg/tick-svg.svg" alt="tick-img">
+                            <p class="font-normal text-lg max-w-[1144px] ">Duis aute irure dolor in reprehenderit in
+                                voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+                        <div class="flex gap-5 justify-start items-start mb-6">
+                            <img src="./assets/img/svg/tick-svg.svg" alt="tick-img">
+                            <p class="font-normal text-lg max-w-[1144px] ">Ut perspiciatis unde omnis iste natus error
+                                sit
+                                voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
+                                inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                        </div>
+                        <div class="flex gap-5 justify-start items-start ">
+                            <img src="./assets/img/svg/tick-svg.svg" alt="tick-img">
+                            <p class="font-normal text-lg max-w-[1144px] ">Euis aute irure dolor in reprehenderit in
+                                voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================== Marketing analytics section ===================== -->
+        <section class="flex justify-center items-center flex-col mb-[110px]">
+            <div class="container mx-auto flex justify-center items-center flex-col">
+                <h2 class="text-3xl font-bold leading-[116%] mb-4 max-w-[790px] mx-auto text-center">Marketing analytics
+                    that REALLY matter</h2>
+                <img class="max-w-[1000px] pointer-events-none" src="./assets/img/png/marketing-analytics-img.png"
+                    alt="Marketing-analytics-img">
+            </div>
+        </section>
+
+        <!-- =========================== Tabs section =================================== -->
+        <section class="flex justify-center items-center flex-col">
+            <div class="container  mx-auto justify-center flex flex-col items-center ">
+                <div class="flex items-center gap-4 mb-8">
+                    <p
+                        class=" text-[22px] font-bold  leading-[110%] py-5 px-8 border-2  bg-blue text-white hover:border-blue  rounded-full cursor-pointer">
+                        Spendings</p>
+                    <p
+                        class="text-[#7D889E] text-[22px] font-medium leading-[110%] py-5 px-8 bg-[#FAF9F6] border-2 border-blue rounded-full cursor-pointer">
+                        Reach</p>
+                    <p
+                        class="text-[#7D889E] text-[22px] font-medium leading-[110%] py-5 px-8 bg-[#FAF9F6] border-2 border-blue rounded-full cursor-pointer">
+                        Revenue</p>
+                    <p
+                        class="text-[#7D889E] text-[22px] font-medium leading-[110%] py-5 px-8 bg-[#FAF9F6] border-2 border-blue rounded-full cursor-pointer">
+                        Inbound Leads</p>
+                    <p
+                        class="text-[#7D889E] text-[22px] font-medium leading-[110%] py-5 px-8 bg-[#FAF9F6] border-2 border-blue rounded-full cursor-pointer">
+                        Campaigns</p>
+                </div>
+                <div class="box-1 rounded-[48px] pt-2 mt-3 mb-28">
+                    <div class="box bg-white py-14 pl-10 pr-[60px] relative shadow-2xl rounded-[48px]">
+                        <img class="pointer-events-none -z-10 max-w-[85px] absolute bottom-[-17%] left-[80%]"
+                            src="./assets/img/png/down-arrow.png" alt="arrow">
+                        <div class="flex pb-6 items-start">
+                            <img class="pt-1.5 pr-5" src="./assets/img/svg/tick-svg.svg" alt="tick-icon-img">
+                            <p class="max-w-[999px] text-lg font-normal">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <div class="flex pb-6 items-start">
+                            <img class="pt-1.5 pr-5" src="./assets/img/svg/tick-svg.svg" alt="tick-icon-img">
+                            <p class="max-w-[1200px] font-medium text-lg leading-[155%]">Sed ut perspiciatis unde omnis
+                                iste natus error
+                                sit voluptatem accusantium doloremque laudantium. </p>
+                        </div>
+                        <div class="flex pb-6 items-start">
+                            <img class="pt-1.5 pr-5" src="./assets/img/svg/tick-svg.svg" alt="tick-icon-img">
+                            <p class="max-w-[1200px] font-medium text-lg leading-[155%]">Duis aute irure dolor in
+                                reprehenderit in
+                                voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+                        <div class="flex pb-6 items-start">
+                            <img class="pt-1.5 pr-5" src="./assets/img/svg/tick-svg.svg" alt="tick-icon-img">
+                            <p class="max-w-[999px] font-medium text-lg leading-[155%]">Ut perspiciatis unde omnis iste
+                                natus error sit
+                                voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
+                                inventore
+                                veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================== Main campaign section ========================== -->
+        <section class="flex justify-center items-center flex-col">
+            <div class="max-w-[1720px] mx-auto justify-center flex flex-col items-center">
+                <h4 class="font-bold xl:text-[65px] lg:text-5xl sm:text-4xl text-2xl text-center mb-8 leading-[116%]">
+                    How <span class="text-blue">Main Campaign</span> Sync Works</h4>
+                <div class="flex gap-5 flex-wrap items-center justify-center mb-36">
+                    <div class="box-1 pt-1 rounded-3xl">
+                        <div class="card min-w-[327px] text-center bg-white rounded-3xl px-5 pt-4 pb-[90px] shadow-xl">
+                            <p class="font-bold sm:text-2xl text-lg text-blue pb-4
+                     leading-[115%]">Step #1</p>
+                            <p class="text-[#7D889E] text-base font-medium leading-[150%] max-w-[286px]">Facebook user
+                                fills out your
+                                Facebook ad’s instant lead form</p>
+                        </div>
+                    </div>
+                    <div class="box-1 pb-1 rounded-3xl">
+                        <div class="card min-w-[327px] text-center bg-white rounded-3xl px-5 pt-4 pb-[90px] shadow-xl">
+                            <p class="font-bold sm:text-2xl text-lg text-blue pb-4
+                     leading-[115%]">Step #2</p>
+                            <p class="text-[#7D889E] text-base font-medium leading-[150%] max-w-[286px]">Main Campaign
+                                automatically
+                                syncs inbound Facebook leads to sales CRM</p>
+                        </div>
+                    </div>
+                    <div class="box-1 pt-1 rounded-3xl">
+                        <div class="card min-w-[327px] text-center bg-white rounded-3xl px-5 pt-4 pb-[90px] shadow-xl">
+                            <p class="font-bold sm:text-2xl text-lg text-blue pb-4
+                     leading-[115%]">Step #3</p>
+                            <p class="text-[#7D889E] text-base font-medium leading-[150%] max-w-[286px]">Lead makes a
+                                purchase in an
+                                offline setting (example; In person)</p>
+                        </div>
+                    </div>
+                    <div class="box-1 pb-1 rounded-3xl">
+                        <div class="card min-w-[327px] text-center bg-white rounded-3xl px-5 pt-4 pb-[90px] shadow-xl">
+                            <p class="font-bold sm:text-2xl text-lg text-blue pb-4
+                     leading-[115%]">Step #4</p>
+                            <p class="text-[#7D889E] text-base font-medium leading-[150%] max-w-[286px]">Sales team
+                                updates sales CRM
+                                with the Lead’s purchase revenue</p>
+                        </div>
+                    </div>
+                    <div class="box-1 pt-1 rounded-3xl">
+                        <div class="card min-w-[327px] text-center bg-white rounded-3xl px-3 py-4  shadow-xl">
+                            <p class="font-bold sm:text-2xl text-lg text-blue pb-4
+                     leading-[115%]">Step #5</p>
+                            <p class="text-[#7D889E] text-base font-medium leading-[150%] max-w-[286px]">Main Campaign
+                                attributes Lead’s
+                                purchase revenue to Facebook marketing campaigns. Now you know exactly which campaigns
+                                are driving
+                                purchases for your business</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================== Sales section ================================== -->
+        <section class="flex justify-center items-center flex-col">
+            <div class="container justify-center flex flex-col items-center">
+                <h2
+                    class="font-bold xl:text-[65px] lg:text-5xl sm:text-4xl text-2xl text-center mb-6 leading-[116%] max-w-[991px]">
+                    Understand <span class="text-blue">how many sales</span> are driven from your campaigns</h2>
+                <div class="flex flex-wrap">
+
+                    <div class="lg:w-6/12 flex flex-col lg:pt-[120px] items-end ">
+                        <div>
+                            <p class="text-xl font-medium max-w-[635px] mb-[19px] leading-[140%]">The issue with
+                                tracking
+                                marketing data
+                                in an online
+                                setting is that you’re not getting the full picture.
+                                Although you’re still making sales offline. it’s nearly impossible to track exactly what
+                                online
+                                campaigns are
+                                doin the job, and which ones aren’t...until now.</p>
+                            <p class="mb-[55px] text-xl font-medium max-w-[605px] leading-[140%]">With Main Campaign,
+                                you
+                                can integrate your conversion data with Facebook conversion API and
+                                Offline
+                                Conversion
+                                Tracking directly.</p>
+                            <div class="flex gap-4">
+                                <button
+                                    class="rounded-[50px] px-[26px] py-[13px] text-white bg-blue text-xl font-bold ">Get
+                                    Started</button>
+                                <div>
+                                    <p class="text-lg font-bold leading-7">Free 14 days trial.</p>
+                                    <p class="text-base font-medium leading-7">no credit card required</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:w-6/12">
+                        <img src="./assets/img/png/sales-growth-img.png" alt="sale-growth-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================== Privacy section ================================ -->
+        <section class="flex justify-center items-center flex-col">
+            <div class="container justify-center flex flex-col items-center">
+                <h2
+                    class="font-bold xl:text-[65px] lg:text-5xl sm:text-5xl text-2xl text-center mb-6 leading-[116%] lg:mb-[76px]">
+                    With Main Campaign, <span class="text-blue"> Your Privacy Matters</span></h2>
+                <div class="flex flex-wrap justify-center">
+                    <div class="2xl:w-3/12 xl:w-4/12 lg:w-6/12 sm:w-6/12 w-full 2xl:py-0 py-[27px] px-[27px]">
+                        <div
+                            class="2xl:pt-[31px] xl:pt-6 lg:pt-5 pt-4 pb-3 lg:pb-0 lg:max-h-[312px] lg:min-h-[312px] md:min-h-60 min-h-64 shadow-default rounded-[22px] 2xl:px-[26px] xl:px-5 px-3 justify-start flex items-center flex-col">
+                            <img class="max-w-[80px] 2xl:mb-[22px] xl:mb-4 mb-3" src="./assets/img/png/block.png"
+                                alt="block-img">
+                            <p
+                                class="2xl:mb-[18px] xl:mb-3 mb-2 font-bold 2xl:text-xl xl:text-lg lg:text-base text-sm leading-[120%] text-blue">
+                                No Sharing</p>
+                            <p class="text-center text-light-blue font-medium lg:text-lg text-base max-w-[299px]">We
+                                Keep your information secure. We will never share any lead data to other companies.</p>
+                        </div>
+                    </div>
+                    <div class="2xl:w-3/12 xl:w-4/12 lg:w-6/12 sm:w-6/12 w-full 2xl:py-0 py-[27px] px-[27px]">
+                        <div
+                            class="2xl:pt-[31px] xl:pt-6 lg:pt-5 pt-4 pb-3 lg:pb-0 lg:max-h-[312px] lg:min-h-[312px] md:min-h-60 min-h-64 shadow-default rounded-[22px] 2xl:px-[26px] xl:px-5 px-3 justify-start flex items-center flex-col">
+                            <img class="max-w-[80px] 2xl:mb-[22px] xl:mb-4 mb-3" src="./assets/img/png/compliant.png"
+                                alt="compliant-img">
+                            <p
+                                class="2xl:mb-[18px] xl:mb-3 mb-2 font-bold 2xl:text-xl xl:text-lg lg:text-base text-sm leading-[120%] text-blue text-center">
+                                GDPR, CCPA, PCI,
+                                Facebook, Google compliant</p>
+                            <p class="text-center text-light-blue font-medium lg:text-lg text-base max-w-[299px]">Big
+                                Companies choose to work with us for a reason. Get a trusted partner that puts your
+                                security first.</p>
+                        </div>
+                    </div>
+                    <div class="2xl:w-3/12 xl:w-4/12 lg:w-6/12 sm:w-6/12 w-full 2xl:py-0 py-[27px] px-[27px]">
+                        <div
+                            class="2xl:pt-[31px] xl:pt-6 lg:pt-5 pt-4 pb-3 lg:pb-0 lg:max-h-[312px] lg:min-h-[312px] md:min-h-60 min-h-64 shadow-default rounded-[22px] 2xl:px-[26px] xl:px-5 px-3 justify-start flex items-center flex-col">
+                            <img class="max-w-[80px] 2xl:mb-[22px] xl:mb-4 mb-3"
+                                src="./assets/img/png/cyber-security.png" alt="advanced-security-img">
+                            <p
+                                class="2xl:mb-[18px] xl:mb-3 mb-2 font-bold 2xl:text-xl xl:text-lg lg:text-base text-sm leading-[120%] text-blue">
+                                Advanced Security</p>
+                            <p class="text-center text-light-blue font-medium lg:text-lg text-base max-w-[299px]">
+                                Laser-targeted segmentation, Local store distribution, automation rules and filters, and
+                                more. We put security first.</p>
+                        </div>
+                    </div>
+                    <div class="2xl:w-3/12 xl:w-4/12 lg:w-6/12 sm:w-6/12 w-full 2xl:py-0 py-[27px] px-[27px]">
+                        <div
+                            class="2xl:pt-[31px] xl:pt-6 lg:pt-5 pt-4 pb-3 lg:pb-0 lg:max-h-[312px] lg:min-h-[312px] md:min-h-60 min-h-64 shadow-default rounded-[22px] 2xl:px-[26px] xl:px-5 px-3 justify-start flex items-center flex-col">
+                            <img class="max-w-[80px] 2xl:mb-[22px] xl:mb-4 mb-3" src="./assets/img/png/insurance.png"
+                                alt="insurance-img">
+                            <p
+                                class="2xl:mb-[18px] xl:mb-3 mb-2 font-bold 2xl:text-xl xl:text-lg lg:text-base text-sm leading-[120%] text-blue">
+                                Conset-based Marketing
+                            </p>
+                            <p class="text-center text-light-blue font-medium lg:text-lg text-base max-w-[299px]">Making
+                                conset-based marketing the most scalable, efficient, and safest method for customer
+                                acquistion.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================== Businesses slider section ====================== -->
+        <section class="pt-36 max-xl:pt-28 max-lg:pt-20 max-md:pt-14 ">
+            <div class="container overflow-hidden pb-14 xl:max-w-[1600px]">
+                <div class="text-center pb-20">
+                    <h2
+                        class="text-6xl font-bold max-w-[887px] mx-auto max-lg:text-[44px] max-md:text-5xl max-sm:text-2xl px-3">
+                        Businesses generate more revenue with Main Campaign</h2>
+                </div>
+                <div class="businesses-generate-slider slider mt-10 gap-7 max-sm:mx-4">
+                    <div
+                        class="bg-blue cs-shadow rounded-[48px] min-h-[446px] max-md:min-h-[400px] max-sm:min-h-[360px] max-sm:min-w-[337px] max-lg:min-w-[390px]  min-w-[476px] pt-2">
+                        <div
+                            class="rounded-[48px] min-h-[446px] max-md:min-h-[400px] max-sm:min-h-[375px] max-sm:w-[337px] max-lg:w-[390px] w-[476px] bg-white shadow-step-box flex flex-col px-6">
+                            <div class="flex flex-col items-center">
+                                <img class="size-[163px] max-lg:size-32 max-md:size-28 max-sm:size-24 z-10 -mt-24 shadow-slider-box rounded-full"
+                                    src="./assets/img/png/next-tech-img.png" alt="next-tech-img">
+                            </div>
+                            <p class="2xl:text-2xl xl:text-xl text-base font-bold text-start ">Next Technologies</p>
+                            <p class="max-w-[395px] text-light-blue font-medium lg:text-base">“Lorem ipsum dolor sit
+                                amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.” </p>
+                            <div class="flex gap-3 items-center mt-8">
+                                <img class="size-[58px]" src="./assets/img/png/james-img.png" alt="james-img">
+                                <div>
+                                    <p class="text-2xl font-bold">James</p>
+                                    <p class="text-sm font-medium">Co-Founder at Slash next technologies.</p>
+                                </div>
+                            </div>
+                            <div class="border border-iron max-w-[419px] rounded-full my-7"></div>
+                            <button
+                                class="text-sm text-center shadow-light font-bold border border-transparent max-w-[173px] mx-auto mb-7 text-white rounded-full py-2 px-[50px] duration-300 ease-linear bg-blue hover:bg-white hover:border-blue hover:text-blue shadow-button-shadow">Read
+                                more</button>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-blue cs-shadow rounded-[48px] min-h-[446px] max-md:min-h-[400px] max-sm:min-h-[360px] max-sm:min-w-[337px] max-lg:min-w-[390px]  min-w-[476px] pt-2">
+                        <div
+                            class="rounded-[48px] min-h-[446px] max-md:min-h-[400px] max-sm:min-h-[375px] max-sm:w-[337px] max-lg:w-[390px] w-[476px] bg-white shadow-step-box flex flex-col px-6">
+                            <div class="flex flex-col items-center">
+                                <img class="size-[163px] max-lg:size-32 max-md:size-28 max-sm:size-24 z-10 -mt-24 shadow-slider-box rounded-full"
+                                    src="./assets/img/png/code-sync-img.png" alt="code-sync-img">
+                            </div>
+                            <p class="2xl:text-2xl xl:text-xl text-base font-bold text-start ">CodeSync Inc.</p>
+                            <p class="max-w-[395px] text-light-blue font-medium lg:text-base">“Lorem ipsum dolor sit
+                                amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.” </p>
+                            <div class="flex gap-3 items-center mt-8">
+                                <img class="size-[58px]" src="./assets/img/png/kathie-img.png" alt="kathie-img">
+                                <div>
+                                    <p class="text-2xl font-bold">Kathie</p>
+                                    <p class="text-sm font-medium">Director and Founder at CodeSync Inc.</p>
+                                </div>
+                            </div>
+                            <div class="border border-iron max-w-[419px] rounded-full my-7"></div>
+                            <button
+                                class="text-sm text-center shadow-light font-bold border border-transparent max-w-[173px] mx-auto mb-7 text-white rounded-full py-2 px-[50px] duration-300 ease-linear bg-blue hover:bg-white hover:border-blue hover:text-blue shadow-button-shadow">Read
+                                more</button>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-blue cs-shadow rounded-[48px] min-h-[446px] max-md:min-h-[400px] max-sm:min-h-[360px] max-sm:min-w-[337px] max-lg:min-w-[390px] min-w-[476px] pt-2">
+                        <div
+                            class="rounded-[48px] min-h-[446px] max-md:min-h-[400px] max-sm:min-h-[375px] max-sm:w-[337px] max-lg:w-[390px] w-[476px] bg-white shadow-step-box flex flex-col px-6">
+                            <div class="flex flex-col items-center">
+                                <img class="size-[163px] max-lg:size-32 max-md:size-28 max-sm:size-24 z-10 -mt-24 shadow-slider-box rounded-full"
+                                    src="./assets/img/png/warrior-img.png" alt="warrior-img">
+                            </div>
+                            <p class="2xl:text-2xl xl:text-xl text-base font-bold text-start ">Urawarrior</p>
+                            <p class="max-w-[395px] text-light-blue font-medium lg:text-base">“Lorem ipsum dolor sit
+                                amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.” </p>
+                            <div class="flex gap-3 items-center mt-8">
+                                <img class="size-[58px]" src="./assets/img/png/bershan-shaw-img.png"
+                                    alt="bershan-shaw-img">
+                                <div>
+                                    <p class="text-2xl font-bold">Bershan Shaw</p>
+                                    <p class="text-sm font-medium">Founder at Urawarrior</p>
+                                </div>
+                            </div>
+                            <div class="border border-iron max-w-[419px] rounded-full my-7"></div>
+                            <button
+                                class="text-sm text-center shadow-light font-bold border border-transparent max-w-[173px] mx-auto mb-7 text-white rounded-full py-2 px-[50px] duration-300 ease-linear bg-blue hover:bg-white hover:border-blue hover:text-blue shadow-button-shadow">Read
+                                more</button>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-blue cs-shadow rounded-[48px] min-h-[446px] max-md:min-h-[400px] max-sm:min-h-[360px] max-sm:min-w-[337px] max-lg:min-w-[390px] min-w-[476px] pt-2">
+                        <div
+                            class="rounded-[48px] min-h-[446px] max-md:min-h-[400px] max-sm:min-h-[375px] max-sm:w-[337px] max-lg:w-[390px] w-[476px] bg-white shadow-step-box flex flex-col px-6">
+                            <div class="flex flex-col items-center">
+                                <img class="size-[163px] max-lg:size-32 max-md:size-28 max-sm:size-24 z-10 -mt-24 shadow-slider-box rounded-full"
+                                    src="./assets/img/png/code-sync-img.png" alt="code-sync-img">
+                            </div>
+                            <p class="2xl:text-2xl xl:text-xl text-base font-bold text-start ">CodeSync Inc.</p>
+                            <p class="max-w-[395px] text-light-blue font-medium lg:text-base">“Lorem ipsum dolor sit
+                                amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.” </p>
+                            <div class="flex gap-3 items-center mt-8">
+                                <img class="size-[58px]" src="./assets/img/png/kathie-img.png" alt="kathie-img">
+                                <div>
+                                    <p class="text-2xl font-bold">Kathie</p>
+                                    <p class="text-sm font-medium">Director and Founder at CodeSync Inc.</p>
+                                </div>
+                            </div>
+                            <div class="border border-iron max-w-[419px] rounded-full my-7"></div>
+                            <button
+                                class="text-sm text-center shadow-light font-bold border border-transparent max-w-[173px] mx-auto mb-7 text-white rounded-full py-2 px-[50px] duration-300 ease-linear bg-blue hover:bg-white hover:border-blue hover:text-blue shadow-button-shadow">Read
+                                more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================== Scale section ================================== -->
+        <section class="py-24 max-md:pt-14 relative overflow-hidden">
+            <img class="absolute pointer-events-none -left-[0%] -bottom-[11%] max-w-[686px]"
+                src="./assets/img/svg/scale-section-bg-img.svg" alt="blue-circle-img">
+            <div class="container flex flex-col z-50 relative justify-center items-center ">
+                <div class="text-center pb-[30px]">
+                    <h2 class="text-6xl font-bold mx-auto max-lg:text-[44px] max-md:text-5xl max-sm:text-2xl px-3">
+                        Are you ready to scale?</h2>
+                </div>
+                <div class="flex justify-center xl:mb-[58px] lg:mb-12 mb-10">
+                    <button
+                        class="flex justify-center items-center border-[2px] border-transparent hover:border-blue hover:bg-white hover:text-blue bg-blue text-white rounded-[60px] xl:px-[29.5px] lg:px-6 px-5 xl:py-5 lg:py-4 py-3">Start
+                        My Free Trial</button>
+                </div>
+                <img class="max-w-[1218px] shadow-light-2 rounded-[30px]" src="./assets/img/png/scale-section-img.png"
+                    alt="scale-img">
+            </div>
+        </section>
+
+        <!-- =========================== Slider section ================================= -->
+        <section class="bg-light-gray">
+            <div class="container py-16 relative max-w-[1620px] px-24">
+                <div class="absolute left-0 top-[40%] group max-xl:hidden">
+                    <button
+                        class="prev items-center flex justify-center bg-[#EEEEEC] group-hover:bg-blue size-[35px] rounded-full cursor-pointer"
+                        aria-label="Previous Slide"><svg width="12" height="15" viewBox="0 0 12 20" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M11.0457 19.5608C11.3269 19.2795 11.4849 18.8981 11.4849 18.5003C11.4849 18.1026 11.3269 17.7211 11.0457 17.4398L3.62073 10.0148L11.0457 2.58982C11.319 2.30692 11.4702 1.92801 11.4667 1.53472C11.4633 1.14142 11.3056 0.765204 11.0275 0.487091C10.7493 0.208979 10.3731 0.0512277 9.97983 0.0478097C9.58654 0.0443917 9.20764 0.195583 8.92473 0.468821L0.439233 8.95432C0.158026 9.23561 5.35296e-05 9.61707 5.35248e-05 10.0148C5.35201e-05 10.4126 0.158026 10.794 0.439233 11.0753L8.92473 19.5608C9.20603 19.842 9.58749 20 9.98523 20C10.383 20 10.7644 19.842 11.0457 19.5608Z"
+                                fill="#3B5998" class="group-hover:fill-[#EEEEEC]" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="absolute right-0 top-[40%] group max-xl:hidden">
+                    <button
+                        class="next items-center flex justify-center bg-[#EEEEEC] group-hover:bg-blue size-[35px] rounded-full cursor-pointer"
+                        aria-label="Next Slide"><svg width="12" height="15" viewBox="0 0 12 20" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0.704443 19.5608C0.423236 19.2795 0.265263 18.8981 0.265263 18.5003C0.265263 18.1026 0.423236 17.7211 0.704443 17.4398L8.12944 10.0148L0.704442 2.58982C0.431205 2.30692 0.280014 1.92801 0.283431 1.53472C0.286849 1.14142 0.444601 0.765204 0.722714 0.487092C1.00083 0.208979 1.37704 0.0512277 1.77034 0.04781C2.16364 0.0443924 2.54254 0.195584 2.82544 0.468821L11.3109 8.95432C11.5921 9.23561 11.7501 9.61707 11.7501 10.0148C11.7501 10.4126 11.5921 10.794 11.3109 11.0753L2.82544 19.5608C2.54415 19.842 2.16269 20 1.76494 20C1.3672 20 0.985735 19.842 0.704443 19.5608Z"
+                                fill="#3B5998" class="group-hover:fill-[#EEEEEC]" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="slider-footer flex overflow-hidden gap-5">
+                    <img class="max-w-[117px] max-h-7" src="./assets/img/svg/bottom-slider-img-1.svg" alt="noguchn-img">
+                    <img class="max-w-[118px] max-h-9" src="./assets/img/svg/bottom-slider-img-2.svg" alt="airbnb-img">
+                    <img class="max-w-[117px] max-h-7" src="./assets/img/svg/bottom-slider-img-3.svg"
+                        alt="business-img">
+                    <img class="max-w-[117px] max-h-7" src="./assets/img/svg/bottom-slider-img-4.svg" alt="ariba-img">
+                    <img class="max-w-[117px] max-h-3.5" src="./assets/img/svg/bottom-slider-img-5.svg"
+                        alt="idesign-img">
+                    <img class="max-w-[117px] max-h-7" src="./assets/img/svg/bottom-slider-img-6.svg" alt="brooks-img">
+                    <img class="max-w-[117px] max-h-8" src="./assets/img/svg/bottom-slider-img-7.svg" alt="okuma-img">
+                    <img class="max-w-[117px] max-h-10" src="./assets/img/svg/bottom-slider-img-8.svg" alt="island">
+
+                    <img class="max-w-[117px] max-h-7" src="./assets/img/svg/bottom-slider-img-1.svg" alt="noguchn-img">
+                    <img class="max-w-[118px] max-h-9" src="./assets/img/svg/bottom-slider-img-2.svg" alt="airbnb-img">
+                    <img class="max-w-[117px] max-h-7" src="./assets/img/svg/bottom-slider-img-3.svg"
+                        alt="business-img">
+                    <img class="max-w-[117px] max-h-7" src="./assets/img/svg/bottom-slider-img-4.svg" alt="ariba-img">
+                    <img class="max-w-[117px] max-h-3.5" src="./assets/img/svg/bottom-slider-img-5.svg"
+                        alt="idesign-img">
+                    <img class="max-w-[117px] max-h-7" src="./assets/img/svg/bottom-slider-img-6.svg" alt="brooks-img">
+                    <img class="max-w-[117px] max-h-8" src="./assets/img/svg/bottom-slider-img-7.svg" alt="okuma-img">
+                    <img class="max-w-[117px] max-h-10" src="./assets/img/svg/bottom-slider-img-8.svg" alt="island">
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================== Footer section ================================= -->
+        <footer class="flex bg-light-gray justify-center flex-col">
+            <div class="container flex flex-col justify-center items-center max-w-[1600px]">
+                <div class="bg-blue w-full h-[1px] decoration-dotted mb-[77px]"></div>
+                <div class="flex w-full max-w-[1440px] justify-center items-center mx-auto flex-wrap">
+                    <div class="w-7/12">
+                        <div class="flex flex-wrap">
+                            <div class="w-4/12">
+                                <img class="max-w-[242px]" src="./assets/img/svg/footer-logo.svg" alt="page-logo">
+                            </div>
+                            <div class="w-4/12 ps-5">
+                                <div>
+                                    <h4 class="font-bold text-xl xl:pb-[25px] lg:pb-5 pb-4 mt-3">COMPANY</h4>
+                                    <p class="mb-3 font-light text-base text-light-brown"><a href="#home">Home</a></p>
+                                    <p class="mb-3 font-light text-base text-light-brown"><a href="#home">About us</a>
+                                    </p>
+                                    <p class="mb-3 font-light text-base text-light-brown"><a href="#home">Pricing</a>
+                                    </p>
+                                    <p class="mb-3 font-light text-base text-light-brown"><a href="#home">Start free
+                                            trial</a></p>
+                                </div>
+                            </div>
+                            <div class="w-4/12">
+                                <div>
+                                    <h4 class="font-bold text-xl xl:pb-[25px] lg:pb-5 pb-4 mt-3">SUPPORT</h4>
+                                    <p class="mb-3 font-light text-base text-light-brown"><a href="#contact">Contact
+                                            us</a></p>
+                                    <p class="mb-3 font-light text-base text-light-brown"><a href="#faqs">FAQs</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-5/12 lg:ps-20">
+                        <p class="mb-5 font-bold text-xl ">SUBSCRIBE</p>
+                        <input type="email" required
+                            class="placeholder:font-light placeholder:text-base max-w-[447px] mb-5 w-full px-5 py-5 rounded-[18px] border-[1px] border-lavender"
+                            placeholder="Enter email address">
+                        <p class="max-w-[517px] text-light-brown font-light text-sm">By submitting your email you agree
+                            to our Terms of Use and Sale and Privacy Policy. You will
+                            receive email communications from us for marketing, informational, and promotional purposes
+                            and can opt-out at any time.</p>
+                    </div>
+                </div>
+                <div class="bg-blue w-full h-[1px] decoration-dotted mt-[77px] "></div>
+                <div class="pt-10 pb-[55px] flex flex-wrap justify-between w-full px-3 items-center">
+                    <div class="lg:w-6/12 w-full flex lg:justify-start justify-center">
+                        <a class="text-light-brown " href="#privacy">Privacy Policy </a>
+                        <a class="text-light-brown " href="#Terms & Conditions"> • Terms & Conditions</a>
+                    </div>
+                    <div class="flex lg:gap-5 gap-4 lg:w-6/12 w-full lg:justify-end justify-center lg:mt-0 mt-3">
+                        <div class="size-[48px] bg-grayish-yellow flex justify-center items-center rounded-full">
+                            <a href="#facebook"><img src="./assets/img/svg/facebook-logo-img.svg"
+                                    alt="facebook-logo-img"></a>
+                        </div>
+                        <div class="size-[48px] bg-grayish-yellow flex justify-center items-center rounded-full">
+                            <a href="#instagram"><img src="./assets/img/svg/instagram-logo-img.svg"
+                                    alt="instagram-logo-img"></a>
+                        </div>
+                        <div class="size-[48px] bg-grayish-yellow flex justify-center items-center rounded-full">
+                            <a href="#linked-in"><img src="./assets/img/svg/linked-in-logo-img.svg"
+                                    alt="linked-in-logo-img"></a>
+                        </div>
+                        <div class="size-[48px] bg-grayish-yellow flex justify-center items-center rounded-full">
+                            <a href="#cb"><img src="./assets/img/svg/cb-logo-img.svg"
+                                    alt="cb-logo-img"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <!--L QUERRY MIN JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!--SLICK MIN JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
