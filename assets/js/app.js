@@ -6,7 +6,6 @@ $(".businesses-generate-slider").slick({
     centerMode: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: true,
     autoplaySpeed: 2000,
     infinite: true,
     variableWidth: true,
@@ -40,13 +39,14 @@ $(".businesses-generate-slider").slick({
 
 $(".slider-footer").slick({
     dots: false,
-    speed: 2000,
     cssEase: 'linear',
-    slidesToShow: 6,
+    autoplay:false,
+    slidesToShow: 4,
     slidesToScroll: 1,
     infinite: true,
     swipeToSlide: true,
     centerMode: true,
+    variableWidth: true,
     focusOnSelect: true,
     nextArrow: ".next",
     prevArrow: ".prev",
@@ -57,7 +57,7 @@ $(".slider-footer").slick({
                 slidesToShow: 4,
                 slidesToScroll: 1,
                 autoplay: true,
-                autoplaySpeed: 0,
+                autoplaySpeed: 2000,
             }
         },
         {
@@ -66,7 +66,7 @@ $(".slider-footer").slick({
                 slidesToShow: 3,
                 slidesToScroll: 1,
                 autoplay: true,
-                autoplaySpeed: 0,
+                autoplaySpeed: 2000,
             }
         },
         {
@@ -75,7 +75,7 @@ $(".slider-footer").slick({
                 slidesToShow: 2,
                 slidesToScroll: 1,
                 autoplay: true,
-                autoplaySpeed: 0,
+                autoplaySpeed: 2000,
             }
         },
 
