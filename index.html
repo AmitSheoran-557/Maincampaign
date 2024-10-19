@@ -84,18 +84,29 @@
             <img class="absolute pointer-events-none top-0 right-0 max-w-[1440px]"
                 src="./assets/img/svg/sec-1-bg-img.svg" alt="bg-img">
             <div class="container max-w-[1440px] mx-auto px-3 z-50">
-                <nav class="flex justify-between mt-[70px]">
+                <nav class="flex justify-between mt-[70px] z-50">
                     <a href="/"><img src="./assets/img/svg/header-logo.svg" alt="header-logo"></a>
-                    <div class="flex gap-[50px]">
-                        <button class="text-sm font-semibold hover:text-white ease-linear duration-300 ">Login or
-                            Register</button>
-                        <button
-                            class="bg-blue rounded-[60px] text-white border-transparent border-[2px] duration-300 ease-linear hover:text-blue hover:bg-white hover:border-blue text-sm font-semibold px-[21px] py-[12px]">Start
-                            Free Trial</button>
+                    <div
+                        class="gap-[25px] flex flex-col menulist justify-center items-center duration-300 ease-linear text-white w-full -right-full min-h-screen fixed top-0 bg-blue z-[100] lg:relative lg:min-h-fit lg:w-fit lg:flex-row lg:right-0 lg:bg-transparent">
+                        <div class="flex gap-[50px]">
+                            <button class="text-sm font-semibold hover:text-white ease-linear duration-300 ">Login or
+                                Register</button>
+                            <button
+                                class="bg-blue rounded-[60px] text-white border-transparent border-[2px] duration-300 ease-linear hover:text-blue hover:bg-white hover:border-blue text-sm font-semibold px-[21px] py-[12px]">Start
+                                Free Trial</button>
+                        </div>
                     </div>
+                    <div class="flex flex-col lg:hidden menubar justify-between z-[200] relative w-8 h-6 mt-2">
+                        <span
+                          class="w-full h-1 flex rounded-md transition-all duration-500 bg-white menubarFirst origin-left"></span>
+                        <span
+                          class="w-full h-1 flex rounded-md transition-all duration-500 bg-white menubarSecond origin-left"></span>
+                        <span
+                          class="w-full h-1 flex rounded-md transition-all duration-500 bg-white menubarThird origin-left"></span>
+                      </div>
                 </nav>
             </div>
-            <div class="container mx-auto px-3 mt-[67px] z-50 flex flex-col justify-center items-center">
+            <div class="container mx-auto px-3 mt-[67px] z-30 flex flex-col justify-center items-center">
                 <h1
                     class="lg:mb-[15px] mb-3 font-bold 2xl:text-4xl xl:text-3xl lg:text-5xl md:text-[36px] text-[30px] text-center max-w-[1317px] 2xl:leading-[116%]">
                     The Most
@@ -142,10 +153,10 @@
                         class="text-light-blue leading-[110%] xl:text-[22px] flex justify-center xl:min-w-[320px] lg:min-w-72 min-w-64 lg:text-lg md:text-base text-sm font-medium hover:font-bold py-5 2xl:px-8 xl:px-7 lg:px-6 px-4 bg-light-gray border-[1px] border-light-black hover:bg-blue hover:text-white hover:border-blue transition-all duration-500 rounded-[50px] cursor-pointer">
                         Easy, Safe and Secured</p>
                 </div>
-                <div class="relative">
-                    <img class="absolute pointer-events-none max-w-[105px] -z-50 -bottom-[65px] -left-14"
+                <div class="relative lg:mt-0 mt-5">
+                    <img class="absolute pointer-events-none lg:max-w-[105px] max-w-[85px] -z-50 lg:-bottom-[65px] -bottom-[50px] lg:-left-14 -left-10"
                         src="./assets/img/png/down-arrow.png" alt="down-arrow">
-                    <img class="absolute pointer-events-none max-w-[105px] -top-14 lg:-right-12 right-0 "
+                    <img class="absolute pointer-events-none lg:max-w-[105px] max-w-[85px] -top-14 lg:-right-12 right-0 "
                         src="./assets/img/png/up-arrow.png" alt="up-arrow">
                     <div
                         class="shadow-default 2xl:ps-[41px] 2xl:px-0 xl:px-9 lg:px-7 md:px-6 sm:px-5 px-4 2xl:py-[54px] xl:py-12 lg:py-10 md:py-6 py-4  z-50 2xl:pe-[60px] rounded-[48px] relative bg-white border-cyan-500 border-t-[8px]">
@@ -207,7 +218,7 @@
         </section>
 
         <!-- =========================== Tabs section =================================== -->
-        <section class="flex justify-center -mt-3 items-center flex-col">
+        <section class="flex justify-center lg:-mt-3 md:mt-4 sm:mt-8 mt-12  items-center flex-col">
             <div class="container px-3 mx-auto justify-center flex flex-col items-center ">
                 <div class="flex justify-center items-center gap-4 mb-8 overflow-x-auto w-full">
                     <p
@@ -228,30 +239,34 @@
                 </div>
                 <div class="box-1 rounded-[48px] pt-2 mt-3 2xl:mb-40 xl:mb-32 lg:mb-24 mb-12">
                     <div
-                        class="box bg-white 2xl:pb-[49px] xl:pb-11 lg:pb-10 md:pb-8 pb-7 2xl:pt-[42px] xl:pt-9 lg:pt-8 m pt-7  pl-10 pr-[60px] relative shadow-default rounded-[48px]">
+                        class="box bg-white 2xl:pb-[49px] xl:pb-11 lg:pb-10 md:pb-8 pb-7 2xl:pt-[42px] xl:pt-9 lg:pt-8 m pt-7 lg:pl-10 lg:pr-[60px] lg:px-0 md:px-8 px-6 relative shadow-default rounded-[48px]">
                         <img class="pointer-events-none -z-10 max-w-[100px] absolute lg:bottom-[-14%] -bottom-10 lg:right-28 right-20"
                             src="./assets/img/png/down-arrow.png" alt="arrow">
                         <div class="flex lg:pb-[15px] pb-3 items-start">
                             <img class="pt-1.5 pr-5" src="./assets/img/svg/tick-svg.svg" alt="tick-icon-img">
-                            <p class="max-w-[999px] text-lg font-medium">Lorem ipsum dolor sit amet, consectetur
+                            <p class="max-w-[999px] xl:text-lg lg:text-base text-sm font-medium">Lorem ipsum dolor sit
+                                amet, consectetur
                                 adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
                         <div class="flex lg:pb-[15px] pb-3 items-start">
                             <img class="pt-1.5 pr-5" src="./assets/img/svg/tick-svg.svg" alt="tick-icon-img">
-                            <p class="max-w-[1200px] font-medium text-lg leading-[115%]">Sed ut perspiciatis unde omnis
+                            <p class="max-w-[1200px] font-medium xl:text-lg lg:text-base text-sm leading-[115%]">Sed ut
+                                perspiciatis unde omnis
                                 iste natus error
                                 sit voluptatem accusantium doloremque laudantium. </p>
                         </div>
                         <div class="flex lg:pb-[15px] pb-3 items-start">
                             <img class="pt-1.5 pr-5" src="./assets/img/svg/tick-svg.svg" alt="tick-icon-img">
-                            <p class="max-w-[1200px] font-medium text-lg leading-[115%]">Duis aute irure dolor in
+                            <p class="max-w-[1200px] font-medium xl:text-lg lg:text-base text-sm leading-[115%]">Duis
+                                aute irure dolor in
                                 reprehenderit in
                                 voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                         </div>
                         <div class="flex items-start">
                             <img class="pt-1.5 pr-5" src="./assets/img/svg/tick-svg.svg" alt="tick-icon-img">
-                            <p class="max-w-[999px] font-medium text-lg leading-[115%]">Ut perspiciatis unde omnis iste
+                            <p class="max-w-[999px] font-medium xl:text-lg lg:text-base text-sm leading-[115%]">Ut
+                                perspiciatis unde omnis iste
                                 natus error sit
                                 voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
                                 inventore
@@ -268,10 +283,10 @@
                 <h4
                     class="font-bold xl:text-[65px] lg:text-5xl sm:text-4xl text-2xl text-center 2xl:mb-16 xl:mb-14 lg:mb-12 md:mb-10 mb-7 leading-[116%]">
                     How <span class="text-blue">Main Campaign</span> Sync Works</h4>
-                <div class="flex gap-5 flex-wrap items-center justify-center mb-36">
+                <div class="flex gap-5 flex-wrap items-center justify-center xl:mb-36 lg:mb-28 md:mb-20 mb-12">
                     <div class="box-1 pt-1 rounded-3xl">
                         <div
-                            class="card lg:min-w-[327px] text-center bg-white rounded-3xl px-5 pt-4 pb-[90px] shadow-default">
+                            class="card lg:min-w-[327px] text-center bg-white rounded-3xl px-5 pt-4 lg:pb-[90px] md:pb-14 sm:pb-12 pb-10 shadow-default">
                             <p class="font-bold sm:text-2xl text-lg text-blue pb-4
                      leading-[115%]">Step #1</p>
                             <p class="text-[#7D889E] text-base font-medium leading-[150%] max-w-[286px]">Facebook user
@@ -281,7 +296,7 @@
                     </div>
                     <div class="box-1 pb-1 rounded-3xl">
                         <div
-                            class="card lg:min-w-[327px] text-center bg-white rounded-3xl px-5 pt-4 pb-[90px] shadow-default">
+                            class="card lg:min-w-[327px] text-center bg-white rounded-3xl px-5 pt-4 lg:pb-[90px] md:pb-14 sm:pb-12 pb-10 shadow-default">
                             <p class="font-bold sm:text-2xl text-lg text-blue pb-4
                      leading-[115%]">Step #2</p>
                             <p class="text-[#7D889E] text-base font-medium leading-[150%] max-w-[286px]">Main Campaign
@@ -291,7 +306,7 @@
                     </div>
                     <div class="box-1 pt-1 rounded-3xl">
                         <div
-                            class="card lg:min-w-[327px] text-center bg-white rounded-3xl px-5 pt-4 pb-[90px] shadow-default">
+                            class="card lg:min-w-[327px] text-center bg-white rounded-3xl px-5 pt-4 lg:pb-[90px] md:pb-14 sm:pb-12 pb-10 shadow-default">
                             <p class="font-bold sm:text-2xl text-lg text-blue pb-4
                      leading-[115%]">Step #3</p>
                             <p class="text-[#7D889E] text-base font-medium leading-[150%] max-w-[286px]">Lead makes a
@@ -301,7 +316,7 @@
                     </div>
                     <div class="box-1 pb-1 rounded-3xl">
                         <div
-                            class="card lg:min-w-[327px] text-center bg-white rounded-3xl px-5 pt-4 pb-[90px] shadow-default">
+                            class="card lg:min-w-[327px] text-center bg-white rounded-3xl px-5 pt-4 lg:pb-[90px] md:pb-14 sm:pb-12 pb-10 shadow-default">
                             <p class="font-bold sm:text-2xl text-lg text-blue pb-4
                      leading-[115%]">Step #4</p>
                             <p class="text-[#7D889E] text-base font-medium leading-[150%] max-w-[286px]">Sales team
@@ -310,7 +325,7 @@
                         </div>
                     </div>
                     <div class="box-1 pt-1 rounded-3xl">
-                        <div class="card lg:min-w-[327px] text-center bg-white rounded-3xl px-3 py-4 shadow-default">
+                        <div class="card lg:min-w-[327px] text-center bg-white rounded-3xl px-5 pt-4 lg:pb-[90px] md:pb-14 sm:pb-12 pb-10 shadow-default">
                             <p class="font-bold sm:text-2xl text-lg text-blue pb-4
                      leading-[115%]">Step #5</p>
                             <p class="text-[#7D889E] text-base font-medium leading-[150%] max-w-[286px]">Main Campaign
@@ -335,7 +350,9 @@
 
                     <div class="lg:w-6/12 flex flex-col lg:pt-[120px] items-end ">
                         <div>
-                            <p class="text-xl font-medium max-w-[635px] mb-[19px] leading-[140%]">The issue with
+                            <p
+                                class="text-xl font-medium max-w-[635px] lg:text-start text-center mb-[19px] leading-[140%]">
+                                The issue with
                                 tracking
                                 marketing data
                                 in an online
@@ -344,19 +361,22 @@
                                 online
                                 campaigns are
                                 doin the job, and which ones aren’t...until now.</p>
-                            <p class="mb-[55px] text-xl font-medium max-w-[605px] leading-[140%]">With Main Campaign,
+                            <p
+                                class="lg:mb-[55px] md:mb-10 mb-7 text-xl font-medium max-w-[605px] lg:text-start text-center leading-[140%]">
+                                With Main Campaign,
                                 you
                                 can integrate your conversion data with Facebook conversion API and
                                 Offline
                                 Conversion
                                 Tracking directly.</p>
-                            <div class="flex gap-4">
+                            <div class="flex gap-4 justify-center lg:justify-start">
                                 <button
-                                    class="rounded-[50px] px-[26px] py-[13px] border-transparent border-[2px] duration-300 ease-linear hover:text-blue hover:bg-white hover:border-blue text-white bg-blue text-xl font-bold ">Get
+                                    class="rounded-[50px] xl:px-[26px] lg:px-5 px-4 py-[13px] border-transparent border-[2px] duration-300 ease-linear hover:text-blue hover:bg-white hover:border-blue text-white bg-blue xl:text-xl lg:text-lg text-base font-bold ">Get
                                     Started</button>
                                 <div>
-                                    <p class="text-lg font-bold leading-7">Free 14 days trial.</p>
-                                    <p class="text-base font-medium leading-7">no credit card required</p>
+                                    <p class="lg:text-lg md:text-base text-sm font-bold leading-7">Free 14 days trial.
+                                    </p>
+                                    <p class="lg:text-base text-sm font-medium leading-7">no credit card required</p>
                                 </div>
                             </div>
                         </div>
@@ -645,7 +665,7 @@
         <!-- =========================== Footer section ================================= -->
         <footer class="flex bg-light-gray justify-center flex-col">
             <div class="container px-3 flex flex-col justify-center items-center max-w-[1600px]">
-                <div class="bg-blue w-full h-[1px] lg:mb-[74px] divide-dashed md:mb-14 mb-10"></div>
+                <div class="border-t-blue w-full border-t-[2px] border-dashed lg:mb-[74px] md:mb-14 mb-10"></div>
                 <div class="flex w-full max-w-[1440px] justify-center  mx-auto flex-wrap">
                     <div class="w-7/12">
                         <div class="flex flex-wrap lg:justify-start justify-center">
@@ -693,7 +713,7 @@
                             and can opt-out at any time.</p>
                     </div>
                 </div>
-                <div class="bg-blue w-full h-[1px] decoration-dotted lg:mt-[67px] md:mt-14 mt-10"></div>
+                <div class="border-t-blue w-full border-t-[2px] border-dashed lg:mt-[67px] md:mt-14 mt-10"></div>
                 <div
                     class="lg:pt-10 md:pt-8 pt-6 lg:pb-[55px] md:pb-8 pb-6 flex flex-wrap justify-between w-full px-3 items-center">
                     <div class="lg:w-6/12 w-full flex lg:justify-start justify-center">
