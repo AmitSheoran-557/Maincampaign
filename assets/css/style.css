@@ -89,30 +89,10 @@
     display: none !important;
 }
 
-/* footer slider */
+/*----------------- footer slider-------------------- */
 .slider-footer .slick-track {
     display: flex;
-    gap: 47px;
-    align-items: center;
-}
-
-.slider-footer.slick-dotted.slick-slider {
-    display: unset !important;
-}
-
-.slider-footer .slick-dots {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    width: 100%;
-    position: unset;
-}
-
-/*========================== footer slider ================================ */
-.slider-footer .slick-track {
-    display: flex;
-    gap: 47px;
+    gap: 80px;
     align-items: center;
 }
 
