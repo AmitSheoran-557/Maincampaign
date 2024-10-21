@@ -44,6 +44,9 @@
     background: linear-gradient(259.08deg, #50EDFF -5.05%, #48B8DA 63.97%, #3B5998 130.42%);
 
 }
+.overflow-lg-hidden{
+    overflow: hidden;
+}
 
 /*----------------------- businesses-generate-slider -----------------------*/
 .slider .slick-list {
@@ -112,7 +115,7 @@
     position: unset;
 }
 
-/* ==================== tab sec css ============================== */
+/* ==================== tab section css ============================== */
 .tab-list .active {
     background-color:  #3B5998 ;
     color: white;
@@ -129,7 +132,7 @@
 
 
 
-/* ========================= tab sec 2 =========================== */
+/* ========================= tab section 2 css =========================== */
 
 .tab-list-2 .active {
     background-color: #3B5998;
