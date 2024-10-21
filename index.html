@@ -82,22 +82,24 @@
 
         <!-- =========================== Hero section ==================================== -->
         <section class="flex justify-center items-center flex-col">
-            <img class="absolute pointer-events-none top-0 right-0 max-w-[1440px]"
+            <img class="absolute pointer-events-none top-0 right-0 2xl:max-w-[1440px] xl:max-w-[1000px] lg:max-w-[900px] md:max-w-[750px] max-w-[700px]"
                 src="./assets/img/svg/sec-1-bg-img.svg" alt="bg-img">
-            <div class="container max-w-[1440px] mx-auto px-3 z-50">
-                <nav class="flex justify-between mt-[70px] z-50">
+            <div class="container max-w-[1440px] mx-auto px-3 ">
+                <nav class="flex justify-between 2xl:mt-[70px] xl:mt-14 lg:mt-12 md:mt-10 mt-7 z-50">
                     <a href="/"><img src="./assets/img/svg/header-logo.svg" alt="header-logo"></a>
                     <div
                         class="gap-[25px] flex flex-col menulist justify-center items-center duration-300 ease-linear text-white w-full -right-full min-h-screen fixed top-0 bg-blue z-[100] lg:relative lg:min-h-fit lg:w-fit lg:flex-row lg:right-0 lg:bg-transparent">
-                        <div class="flex gap-[50px]">
-                            <button class="text-sm font-semibold hover:text-white ease-linear duration-300 ">Login or
+                        <div class=" flex lg:gap-[50px] gap-5 lg:flex-row flex-col">
+                            <button
+                                class="text-sm font-semibold rounded-[60px] lg:text-black text-white border-transparent border-[2px] lg:hover:bg-blue hover:bg-white lg:hover:text-white hover:text-blue ease-linear duration-200 px-[21px] py-[12px] hover:border-blue">Login
+                                or
                                 Register</button>
                             <button
                                 class="bg-blue rounded-[60px] text-white border-transparent border-[2px] duration-300 ease-linear hover:text-blue hover:bg-white hover:border-blue text-sm font-semibold px-[21px] py-[12px]">Start
                                 Free Trial</button>
                         </div>
                     </div>
-                    <div class="flex flex-col lg:hidden menubar justify-between z-[200] relative w-8 h-6 mt-2">
+                    <div class="flex flex-col lg:hidden menubar fixed right-3 justify-between z-[200] scroll-m-0 w-8 h-6 mt-2">
                         <span
                             class="w-full h-1 flex rounded-md transition-all duration-500 bg-white menubarFirst origin-left"></span>
                         <span
@@ -121,85 +123,287 @@
         </section>
 
         <!-- =========================== welcome image section =========================== -->
-        <section class="relative xl:h-[900px] lg:h-[700px] md:h-[700px] sm:h-[500px] h-[350px] pt-5 lg:pt-0">
+        <section class="relative xl:h-[910px] lg:h-[700px] md:h-[550px] sm:h-[420px] h-[400px] pt-5 lg:pt-0">
             <div class="container mx-auto px-3">
                 <div class="relative">
                     <img class="absolute 2xl:left-[114px] xl:left-24 lg:left-20 md:left-16 sm:left-10 left-2 w-full 2xl:max-w-[963px] xl:max-w-4xl lg:max-w-3xl md:max-w-xl max-w-sm max-h-[724px] top-0"
                         src="./assets/img/png/sec-1-dashboard-img.png" alt="dashboard-img">
-                    <img class="absolute 2xl:top-[197px] 2xl:min-h-[617px] xl:top-40 lg:top-32 top-24 2xl:right-[120px] xl:right-20 lg:right-16 md:right-10 right-0 w-full 2xl:max-w-[963px] xl:max-w-4xl lg:max-w-3xl md:max-w-xl max-w-sm max-h-[596px]"
+                    <img class="absolute 2xl:top-[197px] 2xl:min-h-[627px] xl:top-40 lg:top-32 top-24 2xl:right-[120px] xl:right-20 lg:right-16 md:right-10 right-0 w-full 2xl:max-w-[963px] xl:max-w-4xl lg:max-w-3xl md:max-w-xl max-w-sm max-h-[596px]"
                         src=".//assets/img/png/sec-1-table-img.png" alt="table-img">
                 </div>
             </div>
         </section>
 
         <!-- =========================== Dashboard section =============================== -->
-        <section class="flex justify-center items-center flex-col mb-[110px]">
+        <section class="flex justify-center items-center flex-col xl:mb-[110px] lg:mb-20 md:mb-14 mb-12">   
             <div class="container mx-auto flex justify-center relative z-50 items-center flex-col px-3">
                 <h2
-                    class="2xl:text-3xl xl:text-6xl lg:text-5xl md:text-[36px] text-2xl font-bold 2xl:leading-[116%] mb-[33px] max-w-[1010px] mx-auto text-center">
+                    class="2xl:text-3xl xl:text-6xl lg:text-5xl md:text-[36px] text-2xl font-bold 2xl:leading-[116%] xl:leading-[115%] leading-[114%] mb-[33px] max-w-[1010px] mx-auto text-center">
                     See your
                     revenue grow in
                     real time with our dashboards.</h2>
-                <div class="flex items-center overflow-auto w-full max-w-[1440px] mx-auto justify-center gap-4 mb-8">
-                    <p
-                        class="text-light-blue leading-[110%] xl:text-[22px] lg:text-lg md:text-base text-sm font-medium hover:font-bold py-5 2xl:px-8 xl:px-7 lg:px-6 px-4 bg-light-gray border-[1px] border-light-black hover:bg-blue hover:text-white hover:border-blue transition-all duration-500 rounded-[50px] cursor-pointer">
-                        CRM Integrations</p>
-                    <p
-                        class="text-light-blue leading-[110%] xl:min-w-[390px] lg:min-w-80 min-w-72 flex justify-center flex-nowrap xl:text-[22px] lg:text-lg md:text-base text-sm font-medium hover:font-bold py-5 2xl:px-8 xl:px-7 lg:px-6 px-4 bg-light-gray border-[1px] border-light-black hover:bg-blue hover:text-white hover:border-blue transition-all duration-500 rounded-[50px] cursor-pointer">
-                        Marketing Platform Integrations</p>
-                    <p
-                        class="text-light-blue leading-[110%] xl:text-[22px] lg:text-lg md:text-base text-sm font-medium hover:font-bold py-5 2xl:px-8 xl:px-7 lg:px-6 px-4 bg-light-gray border-[1px] border-light-black hover:bg-blue hover:text-white hover:border-blue transition-all duration-500 rounded-[50px] cursor-pointer">
-                        Analytics</p>
-                    <p
-                        class="text-light-blue leading-[110%] xl:text-[22px] flex justify-center xl:min-w-[320px] lg:min-w-72 min-w-64 lg:text-lg md:text-base text-sm font-medium hover:font-bold py-5 2xl:px-8 xl:px-7 lg:px-6 px-4 bg-light-gray border-[1px] border-light-black hover:bg-blue hover:text-white hover:border-blue transition-all duration-500 rounded-[50px] cursor-pointer">
-                        Easy, Safe and Secured</p>
-                </div>
-                <div class="relative lg:mt-0 mt-5">
-                    <img class="absolute pointer-events-none lg:max-w-[105px] max-w-[85px] -z-50 lg:-bottom-[65px] -bottom-[50px] lg:-left-14 -left-10"
-                        src="./assets/img/png/down-arrow.png" alt="down-arrow">
-                    <img class="absolute pointer-events-none lg:max-w-[105px] max-w-[85px] -top-14 lg:-right-12 right-0 "
-                        src="./assets/img/png/up-arrow.png" alt="up-arrow">
+
+                <div class="tabs border-none w-full">
+
                     <div
-                        class="shadow-default 2xl:ps-[41px] 2xl:px-0 xl:px-9 lg:px-7 md:px-6 sm:px-5 px-4 2xl:py-[54px] xl:py-12 lg:py-10 md:py-6 py-4  z-50 2xl:pe-[60px] rounded-[48px] relative bg-white border-cyan-500 border-t-[8px]">
-                        <div class="flex lg:gap-5 md:gap-3 gap-2 justify-start items-start lg:mb-6 mb-4">
-                            <img src="./assets/img/svg/tick-svg.svg" alt="tick-img">
-                            <p class="font-normal xl:text-lg lg:text-base text-sm max-w-[1144px] ">Lorem ipsum dolor sit
-                                amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                                in
-                                voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        class="tab-list flex items-center overflow-x-auto w-full max-w-[1440px] mx-auto lg:justify-center gap-4 mb-8">
+                        <div
+                            class="tab-btn text-light-blue leading-[110%] 2xl:min-w-[194px] lg:min-w-[222px] md:min-w-[170px] min-w-[160px] xl:text-xl lg:text-lg md:text-base text-sm font-medium  py-[17px] 2xl:px-8 xl:px-7 lg:px-6 px-4 bg-light-gray border-[1px] border-light-black hover:bg-blue hover:text-white hover:border-blue transition-all duration-500 rounded-[50px] cursor-pointer">
+                            <p>
+                                CRM Integrations
+                            </p>
                         </div>
-                        <div class="flex lg:gap-5 md:gap-3 gap-2 justify-start items-start lg:mb-6 mb-4">
-                            <img src="./assets/img/svg/tick-svg.svg" alt="tick-img">
-                            <p class="font-normal xl:text-lg lg:text-base text-sm max-w-[1151px] ">Sed ut perspiciatis
-                                unde omnis iste natus
-                                error
-                                sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-                                illo
-                                inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                        <div
+                            class="tab-btn text-light-blue leading-[110%] xl:min-w-[354px] lg:min-w-80 min-w-72 flex justify-center flex-nowrap xl:text-xl lg:text-lg md:text-base text-sm font-medium  py-[16px] 2xl:px-4 xl:px-7 lg:px-6 px-4 bg-light-gray border-[1px] border-light-black hover:bg-blue hover:text-white hover:border-blue transition-all duration-500 rounded-[50px] cursor-pointer">
+                            <p>
+                                Marketing Platform Integrations</p>
                         </div>
-                        <div class="flex lg:gap-5 md:gap-3 gap-2 justify-start items-start lg:mb-6 mb-4">
-                            <img src="./assets/img/svg/tick-svg.svg" alt="tick-img">
-                            <p class="font-normal xl:text-lg lg:text-base text-sm max-w-[1144px] ">Duis aute irure dolor
-                                in reprehenderit in
-                                voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <div
+                            class="tab-btn text-light-blue leading-[110%] xl:text-xl lg:text-lg md:text-base text-sm font-medium  py-[16px] 2xl:px-6 xl:px-7 lg:px-6 px-4 bg-light-gray border-[1px] border-light-black hover:bg-blue hover:text-white hover:border-blue transition-all duration-500 rounded-[50px] cursor-pointer">
+                            <p>
+                                Analytics</p>
                         </div>
-                        <div class="flex lg:gap-5 md:gap-3 gap-2 justify-start items-start lg:mb-6 mb-4">
-                            <img src="./assets/img/svg/tick-svg.svg" alt="tick-img">
-                            <p class="font-normal xl:text-lg lg:text-base text-sm max-w-[1144px] ">Ut perspiciatis unde
-                                omnis iste natus error
-                                sit
-                                voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-                                inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                        <div
+                            class="tab-btn text-light-blue leading-[110%] xl:text-xl flex justify-center xl:min-w-[270px] lg:min-w-72 min-w-64 lg:text-lg md:text-base text-sm font-medium  py-[16px] xl:px-6 lg:px-5 px-4 bg-light-gray border-[1px] border-light-black hover:bg-blue hover:text-white hover:border-blue transition-all duration-500 rounded-[50px] cursor-pointer">
+                            <p>
+                                Easy, Safe and Secured</p>
                         </div>
-                        <div class="flex lg:gap-5 md:gap-3 gap-2 justify-start items-start ">
-                            <img src="./assets/img/svg/tick-svg.svg" alt="tick-img">
-                            <p class="font-normal xl:text-lg lg:text-base text-sm max-w-[1144px] ">Euis aute irure dolor
-                                in reprehenderit in
-                                voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    </div>
+                    <div class="relative max-w-[1297px] mx-auto ">
+                        <img class="absolute pointer-events-none lg:max-w-[105px] max-w-[85px] -z-50 lg:-bottom-[65px] -bottom-[50px] lg:-left-14 -left-10"
+                            src="./assets/img/png/down-arrow.png" alt="down-arrow">
+                        <img class="absolute pointer-events-none lg:max-w-[105px] max-w-[85px] -top-10 lg:-right-12 right-0 "
+                            src="./assets/img/png/up-arrow.png" alt="up-arrow">
+                        <div class="tab-content relative lg:mt-0 mt-5 shadow-default 2xl:ps-[41px] 2xl:px-0 xl:px-9 lg:px-7 md:px-6 sm:px-5 px-4 2xl:py-[54px] xl:py-12 lg:py-10 md:py-6 py-4  z-50 2xl:pe-[60px] rounded-[48px]
+                                     bg-white border-cyan-500 border-t-[8px]">
+                            <div class="tab-para ">
+                                <div class="flex lg:gap-5 md:gap-3 gap-2 justify-start items-start lg:mb-6 mb-4">
+                                    <img src="./assets/img/svg/tick-svg.svg" alt="tick-img">
+                                    <p class="font-normal xl:text-lg lg:text-base text-sm max-w-[1144px] ">Lorem ipsum
+                                        dolor
+                                        sit
+                                        amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor incididunt ut
+                                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation
+                                        ullamco
+                                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                        reprehenderit
+                                        in
+                                        voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                </div>
+                                <div class="flex lg:gap-5 md:gap-3 gap-2 justify-start items-start lg:mb-6 mb-4">
+                                    <img src="./assets/img/svg/tick-svg.svg" alt="tick-img">
+                                    <p class="font-normal xl:text-lg lg:text-base text-sm max-w-[1151px] ">Sed ut
+                                        perspiciatis
+                                        unde omnis iste natus
+                                        error
+                                        sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                                        quae
+                                        ab
+                                        illo
+                                        inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                                </div>
+                                <div class="flex lg:gap-5 md:gap-3 gap-2 justify-start items-start lg:mb-6 mb-4">
+                                    <img src="./assets/img/svg/tick-svg.svg" alt="tick-img">
+                                    <p class="font-normal xl:text-lg lg:text-base text-sm max-w-[1144px] ">Duis aute
+                                        irure
+                                        dolor
+                                        in reprehenderit in
+                                        voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                </div>
+                                <div class="flex lg:gap-5 md:gap-3 gap-2 justify-start items-start lg:mb-6 mb-4">
+                                    <img src="./assets/img/svg/tick-svg.svg" alt="tick-img">
+                                    <p class="font-normal xl:text-lg lg:text-base text-sm max-w-[1144px] ">Ut
+                                        perspiciatis
+                                        unde
+                                        omnis iste natus error
+                                        sit
+                                        voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+                                        ab
+                                        illo
+                                        inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                                </div>
+                                <div class="flex lg:gap-5 md:gap-3 gap-2 justify-start items-start ">
+                                    <img src="./assets/img/svg/tick-svg.svg" alt="tick-img">
+                                    <p class="font-normal xl:text-lg lg:text-base text-sm max-w-[1144px] ">Euis aute
+                                        irure
+                                        dolor
+                                        in reprehenderit in
+                                        voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                </div>
+                            </div>
+                            <div class="tab-para">
+                                <div class="flex lg:gap-5 md:gap-3 gap-2 justify-start items-start ">
+                                    <img src="./assets/img/svg/tick-svg.svg" alt="tick-img">
+                                    <p class="font-normal xl:text-lg lg:text-base text-sm max-w-[1144px] ">Euis aute
+                                        irure
+                                        dolor
+                                        in reprehenderit in
+                                        voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                </div>
+                                <div class="flex lg:gap-5 md:gap-3 gap-2 justify-start items-start lg:mb-6 mb-4">
+                                    <img src="./assets/img/svg/tick-svg.svg" alt="tick-img">
+                                    <p class="font-normal xl:text-lg lg:text-base text-sm max-w-[1144px] ">Duis aute
+                                        irure
+                                        dolor
+                                        in reprehenderit in
+                                        voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                </div>
+                                <div class="flex lg:gap-5 md:gap-3 gap-2 justify-start items-start lg:mb-6 mb-4">
+                                    <img src="./assets/img/svg/tick-svg.svg" alt="tick-img">
+                                    <p class="font-normal xl:text-lg lg:text-base text-sm max-w-[1144px] ">Ut
+                                        perspiciatis
+                                        unde
+                                        omnis iste natus error
+                                        sit
+                                        voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+                                        ab
+                                        illo
+                                        inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                                </div>
+                                <div class="flex lg:gap-5 md:gap-3 gap-2 justify-start items-start lg:mb-6 mb-4">
+                                    <img src="./assets/img/svg/tick-svg.svg" alt="tick-img">
+                                    <p class="font-normal xl:text-lg lg:text-base text-sm max-w-[1144px] ">Lorem ipsum
+                                        dolor
+                                        sit
+                                        amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor incididunt ut
+                                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation
+                                        ullamco
+                                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                        reprehenderit
+                                        in
+                                        voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                </div>
+                                <div class="flex lg:gap-5 md:gap-3 gap-2 justify-start items-start lg:mb-6 mb-4">
+                                    <img src="./assets/img/svg/tick-svg.svg" alt="tick-img">
+                                    <p class="font-normal xl:text-lg lg:text-base text-sm max-w-[1151px] ">Sed ut
+                                        perspiciatis
+                                        unde omnis iste natus
+                                        error
+                                        sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                                        quae
+                                        ab
+                                        illo
+                                        inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                                </div>
+                            </div>
+                            <div class="tab-para">
+                                <div class="flex lg:gap-5 md:gap-3 gap-2 justify-start items-start lg:mb-6 mb-4">
+                                    <img src="./assets/img/svg/tick-svg.svg" alt="tick-img">
+                                    <p class="font-normal xl:text-lg lg:text-base text-sm max-w-[1144px] ">Duis aute
+                                        irure
+                                        dolor
+                                        in reprehenderit in
+                                        voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                </div>
+                                <div class="flex lg:gap-5 md:gap-3 gap-2 justify-start items-start lg:mb-6 mb-4">
+                                    <img src="./assets/img/svg/tick-svg.svg" alt="tick-img">
+                                    <p class="font-normal xl:text-lg lg:text-base text-sm max-w-[1151px] ">Sed ut
+                                        perspiciatis
+                                        unde omnis iste natus
+                                        error
+                                        sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                                        quae
+                                        ab
+                                        illo
+                                        inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                                </div>
+                                <div class="flex lg:gap-5 md:gap-3 gap-2 justify-start items-start lg:mb-6 mb-4">
+                                    <img src="./assets/img/svg/tick-svg.svg" alt="tick-img">
+                                    <p class="font-normal xl:text-lg lg:text-base text-sm max-w-[1144px] ">Ut
+                                        perspiciatis
+                                        unde
+                                        omnis iste natus error
+                                        sit
+                                        voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+                                        ab
+                                        illo
+                                        inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                                </div>
+                                <div class="flex lg:gap-5 md:gap-3 gap-2 justify-start items-start lg:mb-6 mb-4">
+                                    <img src="./assets/img/svg/tick-svg.svg" alt="tick-img">
+                                    <p class="font-normal xl:text-lg lg:text-base text-sm max-w-[1144px] ">Lorem ipsum
+                                        dolor
+                                        sit
+                                        amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor incididunt ut
+                                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation
+                                        ullamco
+                                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                        reprehenderit
+                                        in
+                                        voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                </div>
+                                <div class="flex lg:gap-5 md:gap-3 gap-2 justify-start items-start ">
+                                    <img src="./assets/img/svg/tick-svg.svg" alt="tick-img">
+                                    <p class="font-normal xl:text-lg lg:text-base text-sm max-w-[1144px] ">Euis aute
+                                        irure
+                                        dolor
+                                        in reprehenderit in
+                                        voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                </div>
+                            </div>
+                            <div class="tab-para">
+                                <div class="flex lg:gap-5 md:gap-3 gap-2 justify-start items-start ">
+                                    <img src="./assets/img/svg/tick-svg.svg" alt="tick-img">
+                                    <p class="font-normal xl:text-lg lg:text-base text-sm max-w-[1144px] ">Euis aute
+                                        irure
+                                        dolor
+                                        in reprehenderit in
+                                        voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                </div>
+                                <div class="flex lg:gap-5 md:gap-3 gap-2 justify-start items-start lg:mb-6 mb-4">
+                                    <img src="./assets/img/svg/tick-svg.svg" alt="tick-img">
+                                    <p class="font-normal xl:text-lg lg:text-base text-sm max-w-[1151px] ">Sed ut
+                                        perspiciatis
+                                        unde omnis iste natus
+                                        error
+                                        sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                                        quae
+                                        ab
+                                        illo
+                                        inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                                </div>
+                                <div class="flex lg:gap-5 md:gap-3 gap-2 justify-start items-start lg:mb-6 mb-4">
+                                    <img src="./assets/img/svg/tick-svg.svg" alt="tick-img">
+                                    <p class="font-normal xl:text-lg lg:text-base text-sm max-w-[1144px] ">Ut
+                                        perspiciatis
+                                        unde
+                                        omnis iste natus error
+                                        sit
+                                        voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+                                        ab
+                                        illo
+                                        inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                                </div>
+                                <div class="flex lg:gap-5 md:gap-3 gap-2 justify-start items-start lg:mb-6 mb-4">
+                                    <img src="./assets/img/svg/tick-svg.svg" alt="tick-img">
+                                    <p class="font-normal xl:text-lg lg:text-base text-sm max-w-[1144px] ">Lorem ipsum
+                                        dolor
+                                        sit
+                                        amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor incididunt ut
+                                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation
+                                        ullamco
+                                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                        reprehenderit
+                                        in
+                                        voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                </div>
+                                <div class="flex lg:gap-5 md:gap-3 gap-2 justify-start items-start lg:mb-6 mb-4">
+                                    <img src="./assets/img/svg/tick-svg.svg" alt="tick-img">
+                                    <p class="font-normal xl:text-lg lg:text-base text-sm max-w-[1144px] ">Duis aute
+                                        irure
+                                        dolor
+                                        in reprehenderit in
+                                        voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -213,7 +417,7 @@
                     class="2xl:text-3xl xl:text-6xl lg:text-5xl md:text-[36px] text-2xl font-bold xl:leading-[116%] mb-4 max-w-[790px] mx-auto text-center">
                     Marketing analytics
                     that REALLY matter</h2>
-                <img class="2xl:max-w-[1050px] 2xl:min-h-[794px] w-full"
+                <img class="2xl:max-w-[1050px] 2xl:min-h-[870px] w-full"
                     src="./assets/img/png/marketing-analytics-img.png" alt="Marketing-analytics-img">
             </div>
         </section>
@@ -221,57 +425,275 @@
         <!-- =========================== Tabs section =================================== -->
         <section class="flex justify-center lg:-mt-3 md:mt-4 sm:mt-8 mt-12  items-center flex-col">
             <div class="container px-3 mx-auto justify-center flex flex-col items-center ">
-                <div class="flex justify-center items-center gap-4 mb-8 overflow-x-auto w-full">
-                    <p
-                        class=" xl:text-[22px] lg:text-lg md:text-base text-sm font-bold leading-[110%] lg:py-5 md:py-4 py-3 lg:px-8 md:px-6 px-5 border-2  bg-blue text-white hover:border-blue  rounded-full cursor-pointer">
-                        Spendings</p>
-                    <p
-                        class="text-light-blue xl:text-[22px] lg:text-lg md:text-base text-sm font-medium leading-[110%] lg:py-5 md:py-4 py-3 lg:px-8 md:px-6 px-5 bg-[#FAF9F6] border-2 border-blue rounded-full cursor-pointer">
-                        Reach</p>
-                    <p
-                        class="text-light-blue xl:text-[22px] lg:text-lg md:text-base text-sm font-medium leading-[110%] lg:py-5 md:py-4 py-3 lg:px-8 md:px-6 px-5 bg-[#FAF9F6] border-2 border-blue rounded-full cursor-pointer">
-                        Revenue</p>
-                    <p
-                        class="text-light-blue xl:text-[22px] lg:min-w-[190px] min-w-40 flex justify-center lg:text-lg md:text-base text-sm font-medium leading-[110%] lg:py-5 md:py-4 py-3 lg:px-8 md:px-6 px-5 bg-[#FAF9F6] border-2 border-blue rounded-full cursor-pointer">
-                        Inbound Leads</p>
-                    <p
-                        class="text-light-blue xl:text-[22px] lg:text-lg md:text-base text-sm font-medium leading-[110%] lg:py-5 md:py-4 py-3 lg:px-8 md:px-6 px-5 bg-[#FAF9F6] border-2 border-blue rounded-full cursor-pointer">
-                        Campaigns</p>
-                </div>
-                <div class="box-1 rounded-[48px] pt-2 mt-3 2xl:mb-40 xl:mb-32 lg:mb-24 mb-12">
+
+                <div class="tabs-2 border-none w-full">
+
+                    <div class="tab-list-2 flex lg:justify-center items-center gap-4 mb-8 overflow-x-auto w-full">
+                        <div
+                            class="tab-btn  xl:text-[20px] lg:text-lg md:text-base text-sm font-medium hover:font-bold leading-[110%] xl:py-[11px] lg:py-3 md:py-4 py-3 lg:px-8 md:px-6 px-5 border-2 text-light-blue bg-light-gray hover:text-white hover:bg-blue hover:border-blue rounded-full cursor-pointer">
+                            <p>
+                                Spendings</p>
+                        </div>
+                        <div class="tab-btn text-light-blue xl:text-[20px] lg:text-lg md:text-base text-sm font-medium hover:font-bold leading-[110%] xl:py-[11px] lg:py-3 md:py-4 py-3 lg:px-7 md:px-6 px-5 bg-[#FAF9F6] border-2 hover:text-white hover:bg-blue hover:border-blue rounded-full cursor-pointer"">
+                            <p>
+                                Reach</p>
+                        </div>
+                        <div class=" tab-btn text-light-blue xl:text-[20px] lg:text-lg md:text-base text-sm font-medium
+                            hover:font-bold leading-[110%] xl:py-[11px] lg:py-3 md:py-4 py-3 lg:px-5 md:px-6 px-5
+                            bg-[#FAF9F6] border-2 hover:text-white hover:bg-blue hover:border-blue rounded-full
+                            cursor-pointer">
+                            <p>
+                                Revenue</p>
+                        </div>
+                        <div
+                            class="tab-btn text-light-blue xl:text-[20px] lg:min-w-[180px] min-w-40 flex justify-center lg:text-lg md:text-base text-sm font-medium hover:font-bold leading-[110%] xl:py-[11px] lg:py-3 md:py-4 py-3 lg:px-2 md:px-4 px-3 bg-[#FAF9F6] border-2 hover:text-white hover:bg-blue hover:border-blue rounded-full cursor-pointer">
+                            <p>
+                                Inbound Leads</p>
+                        </div>
+                        <div
+                            class="tab-btn text-light-blue xl:text-[20px] lg:text-lg md:text-base text-sm font-medium hover:font-bold leading-[110%] xl:py-[11px] lg:py-3 md:py-4 py-3 lg:px-[22px] md:px-6 px-5 bg-[#FAF9F6] border-2 hover:text-white hover:bg-blue hover:border-blue rounded-full cursor-pointer">
+                            <p>
+                                Campaigns</p>
+                        </div>
+                    </div>
                     <div
-                        class="box bg-white 2xl:pb-[49px] xl:pb-11 lg:pb-10 md:pb-8 pb-7 2xl:pt-[42px] xl:pt-9 lg:pt-8 m pt-7 lg:pl-10 lg:pr-[60px] lg:px-0 md:px-8 px-4 relative shadow-default rounded-[48px]">
+                        class="relative max-w-[1150px] mx-auto box-1 rounded-[48px] pt-2 mt-3 2xl:mb-40 xl:mb-32 lg:mb-24 mb-12">
                         <img class="pointer-events-none -z-10 max-w-[100px] absolute lg:bottom-[-16%] -bottom-10 lg:right-28 right-20"
                             src="./assets/img/png/down-arrow.png" alt="arrow">
-                        <div class="flex lg:pb-[15px] pb-3 items-start">
-                            <img class="pt-1.5 lg:pr-5 md:pr-4 pr-3" src="./assets/img/svg/tick-svg.svg" alt="tick-icon-img">
-                            <p class="max-w-[999px] xl:text-lg lg:text-base text-sm font-medium">Lorem ipsum dolor sit
-                                amet, consectetur
-                                adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        </div>
-                        <div class="flex lg:pb-[15px] pb-3 items-start">
-                            <img class="pt-1.5 lg:pr-5 md:pr-4 pr-3" src="./assets/img/svg/tick-svg.svg" alt="tick-icon-img">
-                            <p class="max-w-[1200px] font-medium xl:text-lg lg:text-base text-sm leading-[115%]">Sed ut
-                                perspiciatis unde omnis
-                                iste natus error
-                                sit voluptatem accusantium doloremque laudantium. </p>
-                        </div>
-                        <div class="flex lg:pb-[15px] pb-3 items-start">
-                            <img class="pt-1.5 lg:pr-5 md:pr-4 pr-3" src="./assets/img/svg/tick-svg.svg" alt="tick-icon-img">
-                            <p class="max-w-[1200px] font-medium xl:text-lg lg:text-base text-sm leading-[115%]">Duis
-                                aute irure dolor in
-                                reprehenderit in
-                                voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                        </div>
-                        <div class="flex items-start">
-                            <img class="pt-1.5 lg:pr-5 md:pr-4 pr-3" src="./assets/img/svg/tick-svg.svg" alt="tick-icon-img">
-                            <p class="max-w-[999px] font-medium xl:text-lg lg:text-base text-sm leading-[115%]">Ut
-                                perspiciatis unde omnis iste
-                                natus error sit
-                                voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-                                inventore
-                                veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                        <div
+                            class="tab-content-2 box bg-white 2xl:pb-[49px] xl:pb-11 lg:pb-10 md:pb-8 pb-7 2xl:pt-[42px] xl:pt-9 lg:pt-8 m pt-7 lg:pl-10 lg:pr-[60px] lg:px-0 md:px-8 px-4 relative shadow-default rounded-[48px]">
+                            <div class="tab-para ">
+                                <div class="flex lg:pb-[15px] pb-3 items-start">
+                                    <img class="pt-1.5 lg:pr-5 md:pr-4 pr-3" src="./assets/img/svg/tick-svg.svg"
+                                        alt="tick-icon-img">
+                                    <p class="max-w-[999px] xl:text-lg lg:text-base text-sm font-medium">Lorem ipsum
+                                        dolor
+                                        sit
+                                        amet, consectetur
+                                        adipiscing elit, sed do
+                                        eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                                <div class="flex lg:pb-[15px] pb-3 items-start">
+                                    <img class="pt-1.5 lg:pr-5 md:pr-4 pr-3" src="./assets/img/svg/tick-svg.svg"
+                                        alt="tick-icon-img">
+                                    <p
+                                        class="max-w-[1200px] font-medium xl:text-lg lg:text-base text-sm leading-[115%]">
+                                        Sed
+                                        ut
+                                        perspiciatis unde omnis
+                                        iste natus error
+                                        sit voluptatem accusantium doloremque laudantium. </p>
+                                </div>
+                                <div class="flex lg:pb-[15px] pb-3 items-start">
+                                    <img class="pt-1.5 lg:pr-5 md:pr-4 pr-3" src="./assets/img/svg/tick-svg.svg"
+                                        alt="tick-icon-img">
+                                    <p
+                                        class="max-w-[1200px] font-medium xl:text-lg lg:text-base text-sm leading-[115%]">
+                                        Duis
+                                        aute irure dolor in
+                                        reprehenderit in
+                                        voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                </div>
+                                <div class="flex items-start">
+                                    <img class="pt-1.5 lg:pr-5 md:pr-4 pr-3" src="./assets/img/svg/tick-svg.svg"
+                                        alt="tick-icon-img">
+                                    <p class="max-w-[999px] font-medium xl:text-lg lg:text-base text-sm leading-[115%]">
+                                        Ut
+                                        perspiciatis unde omnis iste
+                                        natus error sit
+                                        voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+                                        ab
+                                        illo
+                                        inventore
+                                        veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                                </div>
+                            </div>
+                            <div class="tab-para ">
+                                <div class="flex lg:pb-[15px] pb-3 items-start">
+                                    <img class="pt-1.5 lg:pr-5 md:pr-4 pr-3" src="./assets/img/svg/tick-svg.svg"
+                                        alt="tick-icon-img">
+                                    <p
+                                        class="max-w-[1200px] font-medium xl:text-lg lg:text-base text-sm leading-[115%]">
+                                        Sed
+                                        ut
+                                        perspiciatis unde omnis
+                                        iste natus error
+                                        sit voluptatem accusantium doloremque laudantium. </p>
+                                </div>
+                                <div class="flex lg:pb-[15px] pb-3 items-start">
+                                    <img class="pt-1.5 lg:pr-5 md:pr-4 pr-3" src="./assets/img/svg/tick-svg.svg"
+                                        alt="tick-icon-img">
+                                    <p class="max-w-[999px] xl:text-lg lg:text-base text-sm font-medium">Lorem ipsum
+                                        dolor
+                                        sit
+                                        amet, consectetur
+                                        adipiscing elit, sed do
+                                        eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                                <div class="flex  pb-3 items-start">
+                                    <img class="pt-1.5 lg:pr-5 md:pr-4 pr-3" src="./assets/img/svg/tick-svg.svg"
+                                        alt="tick-icon-img">
+                                    <p class="max-w-[999px] font-medium xl:text-lg lg:text-base text-sm leading-[115%]">
+                                        Ut
+                                        perspiciatis unde omnis iste
+                                        natus error sit
+                                        voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+                                        ab
+                                        illo
+                                        inventore
+                                        veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                                </div>
+                                <div class="flex lg:pb-[15px] items-start">
+                                    <img class="pt-1.5 lg:pr-5 md:pr-4 pr-3" src="./assets/img/svg/tick-svg.svg"
+                                        alt="tick-icon-img">
+                                    <p
+                                        class="max-w-[1200px] font-medium xl:text-lg lg:text-base text-sm leading-[115%]">
+                                        Duis
+                                        aute irure dolor in
+                                        reprehenderit in
+                                        voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                </div>
+                            </div>
+                            <div class="tab-para">
+                                <div class="flex lg:pb-[15px] pb-3 items-start">
+                                    <img class="pt-1.5 lg:pr-5 md:pr-4 pr-3" src="./assets/img/svg/tick-svg.svg"
+                                        alt="tick-icon-img">
+                                    <p class="max-w-[999px] xl:text-lg lg:text-base text-sm font-medium">Lorem ipsum
+                                        dolor
+                                        sit
+                                        amet, consectetur
+                                        adipiscing elit, sed do
+                                        eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                                <div class="flex lg:pb-[15px] pb-3 items-start">
+                                    <img class="pt-1.5 lg:pr-5 md:pr-4 pr-3" src="./assets/img/svg/tick-svg.svg"
+                                        alt="tick-icon-img">
+                                    <p
+                                        class="max-w-[1200px] font-medium xl:text-lg lg:text-base text-sm leading-[115%]">
+                                        Sed
+                                        ut
+                                        perspiciatis unde omnis
+                                        iste natus error
+                                        sit voluptatem accusantium doloremque laudantium. </p>
+                                </div>
+                                <div class="flex lg:pb-[15px] pb-3 items-start">
+                                    <img class="pt-1.5 lg:pr-5 md:pr-4 pr-3" src="./assets/img/svg/tick-svg.svg"
+                                        alt="tick-icon-img">
+                                    <p
+                                        class="max-w-[1200px] font-medium xl:text-lg lg:text-base text-sm leading-[115%]">
+                                        Duis
+                                        aute irure dolor in
+                                        reprehenderit in
+                                        voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                </div>
+                                <div class="flex items-start">
+                                    <img class="pt-1.5 lg:pr-5 md:pr-4 pr-3" src="./assets/img/svg/tick-svg.svg"
+                                        alt="tick-icon-img">
+                                    <p class="max-w-[999px] font-medium xl:text-lg lg:text-base text-sm leading-[115%]">
+                                        Ut
+                                        perspiciatis unde omnis iste
+                                        natus error sit
+                                        voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+                                        ab
+                                        illo
+                                        inventore
+                                        veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                                </div>
+                            </div>
+                            <div class="tab-para">
+                                <div class="flex lg:pb-[15px] pb-3 items-start">
+                                    <img class="pt-1.5 lg:pr-5 md:pr-4 pr-3" src="./assets/img/svg/tick-svg.svg"
+                                        alt="tick-icon-img">
+                                    <p class="max-w-[999px] xl:text-lg lg:text-base text-sm font-medium">Lorem ipsum
+                                        dolor
+                                        sit
+                                        amet, consectetur
+                                        adipiscing elit, sed do
+                                        eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                                <div class="flex lg:pb-[15px] pb-3 items-start">
+                                    <img class="pt-1.5 lg:pr-5 md:pr-4 pr-3" src="./assets/img/svg/tick-svg.svg"
+                                        alt="tick-icon-img">
+                                    <p
+                                        class="max-w-[1200px] font-medium xl:text-lg lg:text-base text-sm leading-[115%]">
+                                        Sed
+                                        ut
+                                        perspiciatis unde omnis
+                                        iste natus error
+                                        sit voluptatem accusantium doloremque laudantium. </p>
+                                </div>
+                                <div class="flex pb-3 items-start">
+                                    <img class="pt-1.5 lg:pr-5 md:pr-4 pr-3" src="./assets/img/svg/tick-svg.svg"
+                                        alt="tick-icon-img">
+                                    <p class="max-w-[999px] font-medium xl:text-lg lg:text-base text-sm leading-[115%]">
+                                        Ut
+                                        perspiciatis unde omnis iste
+                                        natus error sit
+                                        voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+                                        ab
+                                        illo
+                                        inventore
+                                        veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                                </div>
+                                <div class="flex lg:pb-[15px]  items-start">
+                                    <img class="pt-1.5 lg:pr-5 md:pr-4 pr-3" src="./assets/img/svg/tick-svg.svg"
+                                        alt="tick-icon-img">
+                                    <p
+                                        class="max-w-[1200px] font-medium xl:text-lg lg:text-base text-sm leading-[115%]">
+                                        Duis
+                                        aute irure dolor in
+                                        reprehenderit in
+                                        voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                </div>
+
+                            </div>
+                            <div class="tab-para">
+                                <div class="flex lg:pb-[15px] pb-3 items-start">
+                                    <img class="pt-1.5 lg:pr-5 md:pr-4 pr-3" src="./assets/img/svg/tick-svg.svg"
+                                        alt="tick-icon-img">
+                                    <p class="max-w-[999px] xl:text-lg lg:text-base text-sm font-medium">Lorem ipsum
+                                        dolor
+                                        sit
+                                        amet, consectetur
+                                        adipiscing elit, sed do
+                                        eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+
+                                <div class="flex lg:pb-[15px] pb-3 items-start">
+                                    <img class="pt-1.5 lg:pr-5 md:pr-4 pr-3" src="./assets/img/svg/tick-svg.svg"
+                                        alt="tick-icon-img">
+                                    <p
+                                        class="max-w-[1200px] font-medium xl:text-lg lg:text-base text-sm leading-[115%]">
+                                        Duis
+                                        aute irure dolor in
+                                        reprehenderit in
+                                        voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                </div>
+                                <div class="flex lg:pb-[15px] pb-3 items-start">
+                                    <img class="pt-1.5 lg:pr-5 md:pr-4 pr-3" src="./assets/img/svg/tick-svg.svg"
+                                        alt="tick-icon-img">
+                                    <p
+                                        class="max-w-[1200px] font-medium xl:text-lg lg:text-base text-sm leading-[115%]">
+                                        Sed
+                                        ut
+                                        perspiciatis unde omnis
+                                        iste natus error
+                                        sit voluptatem accusantium doloremque laudantium. </p>
+                                </div>
+                                <div class="flex items-start">
+                                    <img class="pt-1.5 lg:pr-5 md:pr-4 pr-3" src="./assets/img/svg/tick-svg.svg"
+                                        alt="tick-icon-img">
+                                    <p class="max-w-[999px] font-medium xl:text-lg lg:text-base text-sm leading-[115%]">
+                                        Ut
+                                        perspiciatis unde omnis iste
+                                        natus error sit
+                                        voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+                                        ab
+                                        illo
+                                        inventore
+                                        veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -285,7 +707,7 @@
                     class="font-bold xl:text-[65px] lg:text-5xl sm:text-[36px] text-2xl text-center 2xl:mb-16 xl:mb-14 lg:mb-12 md:mb-10 mb-7 leading-[116%]">
                     How <span class="text-blue">Main Campaign</span> Sync Works</h4>
                 <div class="flex gap-5 flex-wrap items-center justify-center xl:mb-36 lg:mb-28 md:mb-20 mb-12">
-                    <div class="box-1 pt-1 rounded-3xl">
+                    <div class="box-1 pt-1 rounded-3xl hover:scale-[1.04] duration-200 ease-linear">
                         <div
                             class="card lg:min-w-[327px] text-center bg-white rounded-3xl px-5 pt-4 lg:pb-[90px] md:pb-14 sm:pb-12 pb-10 shadow-default">
                             <p class="font-bold sm:text-2xl text-lg text-blue pb-4
@@ -295,7 +717,7 @@
                                 Facebook ad’s instant lead form</p>
                         </div>
                     </div>
-                    <div class="box-1 pb-1 rounded-3xl">
+                    <div class="box-1 pb-1 rounded-3xl hover:scale-[1.04] duration-200 ease-linear">
                         <div
                             class="card lg:min-w-[327px] text-center bg-white rounded-3xl px-5 pt-4 lg:pb-[90px] md:pb-14 sm:pb-12 pb-10 shadow-default">
                             <p class="font-bold sm:text-2xl text-lg text-blue pb-4
@@ -305,7 +727,7 @@
                                 syncs inbound Facebook leads to sales CRM</p>
                         </div>
                     </div>
-                    <div class="box-1 pt-1 rounded-3xl">
+                    <div class="box-1 pt-1 rounded-3xl hover:scale-[1.04] duration-200 ease-linear">
                         <div
                             class="card lg:min-w-[327px] text-center bg-white rounded-3xl px-5 pt-4 lg:pb-[90px] md:pb-14 sm:pb-12 pb-10 shadow-default">
                             <p class="font-bold sm:text-2xl text-lg text-blue pb-4
@@ -315,7 +737,7 @@
                                 offline setting (example; In person)</p>
                         </div>
                     </div>
-                    <div class="box-1 pb-1 rounded-3xl">
+                    <div class="box-1 pb-1 rounded-3xl hover:scale-[1.04] duration-200 ease-linear">
                         <div
                             class="card lg:min-w-[327px] text-center bg-white rounded-3xl px-5 pt-4 lg:pb-[90px] md:pb-14 sm:pb-12 pb-10 shadow-default">
                             <p class="font-bold sm:text-2xl text-lg text-blue pb-4
@@ -325,7 +747,7 @@
                                 with the Lead’s purchase revenue</p>
                         </div>
                     </div>
-                    <div class="box-1 pt-1 rounded-3xl">
+                    <div class="box-1 pt-1 rounded-3xl hover:scale-[1.04] duration-200 ease-linear">
                         <div
                             class="card lg:min-w-[327px] text-center bg-white rounded-3xl px-5 pt-4 lg:pb-[20px] md:pb-14 sm:pb-12 pb-10 shadow-default">
                             <p class="font-bold sm:text-2xl text-lg text-blue pb-4
@@ -397,7 +819,8 @@
                     class="font-bold xl:text-[65px] lg:text-5xl sm:text-[36px] text-2xl text-center mb-6 leading-[116%] lg:mb-[76px]">
                     With Main Campaign, <span class="text-blue"> Your Privacy Matters</span></h2>
                 <div class="flex flex-wrap justify-center ">
-                    <div class="2xl:w-3/12 xl:w-4/12 justify-center flex lg:w-6/12 sm:w-6/12 w-full 2xl:py-0 py-[27px] px-[27px]">
+                    <div
+                        class="2xl:w-3/12 xl:w-4/12 hover:scale-[1.04] duration-200 ease-linear justify-center flex lg:w-6/12 sm:w-6/12 w-full 2xl:py-0 py-[27px] px-[27px]">
                         <div
                             class="2xl:pt-[31px] xl:max-w-[377px] max-w-[323px] xl:pt-6 lg:pt-5 pt-4 pb-3 lg:pb-0 lg:max-h-[312px] lg:min-h-[312px] md:min-h-60 min-h-64 shadow-default rounded-[22px] 2xl:px-[22px] xl:px-5 px-3 justify-start flex items-center flex-col">
                             <img class="max-w-[80px] 2xl:mb-[22px] xl:mb-4 mb-3" src="./assets/img/png/block.png"
@@ -409,7 +832,8 @@
                                 Keep your information secure. We will never share any lead data to other companies.</p>
                         </div>
                     </div>
-                    <div class="2xl:w-3/12 xl:w-4/12 justify-center flex lg:w-6/12 sm:w-6/12 w-full 2xl:py-0 py-[27px] px-[27px]">
+                    <div
+                        class="2xl:w-3/12 xl:w-4/12 hover:scale-[1.04] duration-200 ease-linear justify-center flex lg:w-6/12 sm:w-6/12 w-full 2xl:py-0 py-[27px] px-[27px]">
                         <div
                             class="2xl:pt-[31px] xl:max-w-[377px] max-w-[323px] xl:pt-6 lg:pt-5 pt-4 pb-3 lg:pb-0 lg:max-h-[312px] lg:min-h-[312px] md:min-h-60 min-h-64 shadow-default rounded-[22px] 2xl:px-[22px] xl:px-5 px-3 justify-start flex items-center flex-col">
                             <img class="max-w-[80px] 2xl:mb-[22px] xl:mb-4 mb-3" src="./assets/img/png/compliant.png"
@@ -423,7 +847,8 @@
                                 security first.</p>
                         </div>
                     </div>
-                    <div class="2xl:w-3/12 xl:w-4/12 justify-center flex lg:w-6/12 sm:w-6/12 w-full 2xl:py-0 py-[27px] px-[27px]">
+                    <div
+                        class="2xl:w-3/12 xl:w-4/12 hover:scale-[1.04] duration-200 ease-linear justify-center flex lg:w-6/12 sm:w-6/12 w-full 2xl:py-0 py-[27px] px-[27px]">
                         <div
                             class="2xl:pt-[31px] xl:max-w-[377px] max-w-[323px] xl:pt-6 lg:pt-5 pt-4 pb-3 lg:pb-0 lg:max-h-[312px] lg:min-h-[312px] md:min-h-60 min-h-64 shadow-default rounded-[22px] 2xl:px-[22px] xl:px-5 px-3 justify-start flex items-center flex-col">
                             <img class="max-w-[80px] 2xl:mb-[22px] xl:mb-4 mb-3"
@@ -436,7 +861,8 @@
                                 more. We put security first.</p>
                         </div>
                     </div>
-                    <div class="2xl:w-3/12 xl:w-4/12 justify-center flex lg:w-6/12 sm:w-6/12 w-full 2xl:py-0 py-[27px] px-[27px]">
+                    <div
+                        class="2xl:w-3/12 xl:w-4/12 hover:scale-[1.04] duration-200 ease-linear justify-center flex lg:w-6/12 sm:w-6/12 w-full 2xl:py-0 py-[27px] px-[27px]">
                         <div
                             class="2xl:pt-[31px] xl:max-w-[377px] max-w-[323px] xl:pt-6 lg:pt-5 pt-4 pb-3 lg:pb-0 lg:max-h-[312px] lg:min-h-[312px] md:min-h-60 min-h-64 shadow-default rounded-[22px] 2xl:px-[22px] xl:px-5 px-3 justify-start flex items-center flex-col">
                             <img class="max-w-[80px] 2xl:mb-[22px] xl:mb-4 mb-3" src="./assets/img/png/insurance.png"
@@ -457,13 +883,13 @@
         <!-- =========================== Businesses slider section ====================== -->
         <section class="pt-36 max-xl:pt-28 max-lg:pt-20 max-md:pt-14 ">
             <div class="container px-3 overflow-hidden lg:pb-14 xl:max-w-[1600px]">
-                <div class="text-center pb-4">
+                <div class="text-center pb-1">
                     <h2
-                        class="2xl:text-3xl xl:text-6xl lg:text-5xl md:text-[36px] text-2xll font-bold lg:max-w-[910px] max-w-2xl mx-auto px-3">
+                        class="2xl:text-3xl 2xl:leading-[116%] xl:text-6xl lg:text-5xl md:text-[36px] text-2xll font-bold lg:max-w-[910px] max-w-2xl mx-auto px-3">
                         Businesses generate more revenue with Main Campaign</h2>
                 </div>
                 <div
-                    class="businesses-generate-slider slider max-w-[1500px] mx-auto overflow-hidden lg:pt-32 pt-20 pb-7 lg:mt-8 gap-7 max-sm:mx-4">
+                    class="businesses-generate-slider slider max-w-[1500px] mx-auto overflow-hidden lg:pt-32 pt-20 pb-7 gap-7 max-sm:mx-4">
                     <div
                         class="bg-blue cs-shadow rounded-[48px] min-h-[446px] max-md:min-h-[400px] max-sm:min-h-[360px] max-sm:min-w-[320px] max-lg:min-w-[390px] min-w-[446px] pt-2">
                         <div
@@ -595,7 +1021,7 @@
         </section>
 
         <!-- =========================== Scale section ================================== -->
-        <section class="xl:pb-24 lg:pb-16 pb-12 lg:pt-5  relative overflow-hidden">
+        <section class="xl:pb-24 lg:pb-16 pb-12 lg:pt-11 relative overflow-hidden">
             <img class="absolute pointer-events-none -left-[0%] -bottom-[11%] lg:max-w-[686px] md:max-w-96 sm:max-w-64 max-w-52"
                 src="./assets/img/svg/scale-section-bg-img.svg" alt="blue-circle-img">
             <div class="container px-3 flex flex-col z-50 relative justify-center items-center ">
@@ -605,7 +1031,7 @@
                 </div>
                 <div class="flex justify-center xl:mb-[58px] lg:mb-12 mb-10">
                     <button
-                        class="flex justify-center font-medium text-base items-center border-[2px] border-transparent hover:border-blue ease-linear duration-300 hover:bg-white hover:text-blue bg-blue text-white rounded-[60px] xl:px-[29.5px] lg:px-6 px-5 xl:py-5 lg:py-4 py-3">Start
+                        class="flex justify-center font-medium text-base items-center border-[2px] border-transparent hover:border-blue ease-linear duration-300 hover:bg-white hover:text-blue bg-blue text-white rounded-[60px] xl:px-[27.5px] lg:px-6 px-4 xl:py-[14px] lg:py-4 py-3">Start
                         My Free Trial</button>
                 </div>
                 <img class="max-w-[1218px] w-full shadow-light-3 rounded-[30px]"
@@ -672,31 +1098,45 @@
                     <div class="w-7/12">
                         <div class="flex flex-wrap lg:justify-start justify-center">
                             <div class="lg:w-4/12">
-                               <a href="#home"><img class="max-w-[242px]" src="./assets/img/svg/footer-logo.svg" alt="page-logo"></a> 
+                                <a href="#home"><img class="max-w-[242px]" src="./assets/img/svg/footer-logo.svg"
+                                        alt="page-logo"></a>
                             </div>
                             <div class="flex md:w-8/12 lg:ps-20 lg:justify-start pt-5 lg:pt-0 justify-between">
                                 <div class="lg:w-4/12 justify-start flex">
                                     <div>
                                         <h4 class="font-bold text-xl xl:pb-[25px] lg:pb-5 pb-4 mt-3">COMPANY</h4>
-                                        <p class="mb-3 font-light text-base text-light-brown hover:text-blue duration-200 ease-linear"><a href="#home">Home</a>
+                                        <p
+                                            class="mb-3 font-light text-base text-light-brown hover:text-blue duration-200 ease-linear">
+                                            <a href="#home">Home</a>
                                         </p>
-                                        <p class="mb-3 font-light text-base text-light-brown hover:text-blue duration-200 ease-linear"><a href="#about">About
+                                        <p
+                                            class="mb-3 font-light text-base text-light-brown hover:text-blue duration-200 ease-linear">
+                                            <a href="#about">About
                                                 us</a>
                                         </p>
-                                        <p class="mb-3 font-light text-base text-light-brown hover:text-blue duration-200 ease-linear"><a
-                                                href="#pricing">Pricing</a>
+                                        <p
+                                            class="mb-3 font-light text-base text-light-brown hover:text-blue duration-200 ease-linear">
+                                            <a href="#pricing">Pricing</a>
                                         </p>
-                                        <p class="mb-3 font-light text-base text-light-brown hover:text-blue duration-200 ease-linear"><a href="#trail">Start
+                                        <p
+                                            class="mb-3 font-light text-base text-light-brown hover:text-blue duration-200 ease-linear">
+                                            <a href="#trail">Start
                                                 free
-                                                trial</a></p>
+                                                trial</a>
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="lg:w-4/12 lg:ps-0 ps-10 justify-end flex">
                                     <div>
                                         <h4 class="font-bold text-xl xl:pb-[25px] lg:pb-5 pb-4 mt-3">SUPPORT</h4>
-                                        <p class="mb-3 font-light text-base text-light-brown hover:text-blue duration-200 ease-linear"><a href="#contact">Contact
-                                                us</a></p>
-                                        <p class="mb-3 font-light text-base text-light-brown hover:text-blue duration-200 ease-linear"><a href="#faqs">FAQs</a>
+                                        <p
+                                            class="mb-3 font-light text-base text-light-brown hover:text-blue duration-200 ease-linear">
+                                            <a href="#contact">Contact
+                                                us</a>
+                                        </p>
+                                        <p
+                                            class="mb-3 font-light text-base text-light-brown hover:text-blue duration-200 ease-linear">
+                                            <a href="#faqs">FAQs</a>
                                         </p>
                                     </div>
                                 </div>

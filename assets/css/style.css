@@ -54,6 +54,9 @@
     display: flex;
     gap: 47px;
 }
+.slick-dots{
+    background: blue;
+}
 
 .slider .slick-dots li {
     background-color: #d9d9d9;
@@ -89,7 +92,7 @@
     display: none !important;
 }
 
-/*----------------- footer slider-------------------- */
+/*----------------- footer slider -------------------- */
 .slider-footer .slick-track {
     display: flex;
     gap: 80px;
@@ -107,4 +110,37 @@
     justify-content: center;
     width: 100%;
     position: unset;
+}
+
+/* ==================== tab sec css ============================== */
+.tab-list .active {
+    background-color:  #3B5998 ;
+    color: white;
+}
+
+.tab-content > div {
+    display: none;
+}
+
+.tab-content > .active {
+    display: block;
+    font-weight: bold;
+}
+
+
+
+/* ========================= tab sec 2 =========================== */
+
+.tab-list-2 .active {
+    background-color: #3B5998;
+    border: 2px #3B5998 ;
+    color: white;
+}
+
+.tab-content-2 > div {
+    display: none;
+}
+
+.tab-content-2 > .active {
+    display: block;
 }

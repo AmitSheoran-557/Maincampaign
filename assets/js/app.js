@@ -15,7 +15,7 @@ $(".businesses-generate-slider").slick({
             settings: {
                 slidesToShow: 3,
                 slidesToScroll: 1,
-
+                dots: true,
             }
         },
         {
@@ -40,7 +40,7 @@ $(".businesses-generate-slider").slick({
 $(".slider-footer").slick({
     dots: false,
     cssEase: 'linear',
-    autoplay:false,
+    autoplay: false,
     slidesToShow: 4,
     slidesToScroll: 1,
     infinite: true,
@@ -97,3 +97,66 @@ menuicon.addEventListener("click", function () {
     menubarThird.classList.toggle("-rotate-[40deg]");
     body.classList.toggle("overflow-lg-hidden")
 })
+
+// ========================= tab section js===================================
+document.addEventListener("DOMContentLoaded", () => {
+    const tabsContainer = document.querySelector(".tabs");
+
+    function initializeTabs(tabsContainer) {
+        const tabList = tabsContainer.querySelector(".tab-list");
+        const tabItems = Array.from(tabList.children);
+        const tabContent = tabsContainer.querySelector(".tab-content");
+        const tabContentItems = Array.from(tabContent.children);
+        let activeIndex = 0; // Initially set to 0 for the first child
+
+        function setActiveTab(index) {
+            tabItems.forEach(item => item.classList.remove("active"));
+            tabContentItems.forEach(content => content.classList.remove("active"));
+            tabItems[index].classList.add("active");
+            tabContentItems[index].classList.add("active");
+        }
+
+        tabItems.forEach((item, index) => {
+            item.addEventListener("click", () => {
+                activeIndex = index;
+                setActiveTab(index);
+            });
+        });
+
+        setActiveTab(activeIndex); // Initialize with the first child active
+    }
+
+    initializeTabs(tabsContainer);
+});
+
+
+// ====================================================================
+document.addEventListener("DOMContentLoaded", () => {
+    const tabsContainer = document.querySelector(".tabs-2");
+
+    function initializeTabs(tabsContainer) {
+        const tabList = tabsContainer.querySelector(".tab-list-2");
+        const tabItems = Array.from(tabList.children);
+        const tabContent = tabsContainer.querySelector(".tab-content-2");
+        const tabContentItems = Array.from(tabContent.children);
+        let activeIndex = 0; // Initially set to 0 for the first child
+
+        function setActiveTab(index) {
+            tabItems.forEach(item => item.classList.remove("active"));
+            tabContentItems.forEach(content => content.classList.remove("active"));
+            tabItems[index].classList.add("active");
+            tabContentItems[index].classList.add("active");
+        }
+
+        tabItems.forEach((item, index) => {
+            item.addEventListener("click", () => {
+                activeIndex = index;
+                setActiveTab(index);
+            });
+        });
+
+        setActiveTab(activeIndex); // Initialize with the first child active
+    }
+
+    initializeTabs(tabsContainer);
+});
