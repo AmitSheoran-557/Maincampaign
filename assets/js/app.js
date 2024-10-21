@@ -99,7 +99,7 @@ menuicon.addEventListener("click", function () {
     body.classList.toggle("overflow-lg-hidden")
 })
 
-// ========================= tab section js===================================
+// ========================= tab section js ===================================
 document.addEventListener("DOMContentLoaded", () => {
     const tabsContainer = document.querySelector(".tabs");
 
@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-// ====================================================================
+// ========================= tab 2 js ===========================================
 document.addEventListener("DOMContentLoaded", () => {
     const tabsContainer = document.querySelector(".tabs-2");
 
@@ -161,3 +161,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     initializeTabs(tabsContainer);
 });
+// ============================================================
+document.addEventListener("DOMContentLoaded", function () {
+    const lazyImages = document.querySelectorAll("img.lazy");
+    lazyImages.forEach(img => {
+        img.src = img.dataset.src;
+    });
+});
+
+ 
