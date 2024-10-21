@@ -85,8 +85,9 @@
             <img class="absolute pointer-events-none top-0 right-0 2xl:max-w-[1440px] xl:max-w-[1000px] lg:max-w-[900px] md:max-w-[750px] max-w-[700px]"
                 src="./assets/img/svg/sec-1-bg-img.svg" alt="bg-img">
             <div class="container max-w-[1440px] mx-auto px-3 ">
-                <nav class="flex justify-between relative 2xl:mt-[70px] xl:mt-14 lg:mt-12 md:mt-10 mt-7 z-50">
-                    <a href="/"><img src="./assets/img/svg/header-logo.svg" alt="header-logo"></a>
+                <nav class="flex justify-between relative 2xl:mt-[70px] xl:mt-14 lg:mt-12 md:mt-10 mt-7">
+                    <a class="max-md:hidden" href="/"><img src="./assets/img/svg/header-logo.svg" alt="header-logo"></a>
+                    <a class="md:hidden" href="/"><img src="./assets/img/png/fav-icon.png" alt="header-logo>"></a>
                     <div
                         class="gap-[25px] flex flex-col menulist justify-center items-center duration-300 ease-linear text-white w-full -right-full min-h-screen fixed top-0 bg-blue z-[100] lg:relative lg:min-h-fit lg:w-fit lg:flex-row lg:right-0 lg:bg-transparent">
                         <div class=" flex lg:gap-[50px] gap-5 lg:flex-row flex-col">
@@ -173,7 +174,7 @@
                     <div class="relative max-w-[1297px] mx-auto ">
                         <img class="absolute pointer-events-none lg:max-w-[105px] max-w-[85px] -z-50 lg:-bottom-[65px] -bottom-[40px] lg:-left-14 -left-5"
                             src="./assets/img/png/down-arrow.png" alt="down-arrow">
-                        <img class="absolute pointer-events-none lg:max-w-[105px] max-w-[85px] -top-10 lg:-right-12 right-0 "
+                        <img class="absolute pointer-events-none lg:max-w-[105px] max-w-[85px] -top-10 lg:-right-1 xl:-right-12 right-0 "
                             src="./assets/img/png/up-arrow.png" alt="up-arrow">
                         <div class="tab-content relative lg:mt-0 mt-5 shadow-default 2xl:ps-[41px] 2xl:px-0 xl:px-9 lg:px-7 md:px-6 sm:px-5 px-4 2xl:py-[54px] xl:py-12 lg:py-10 md:py-6 py-4  z-50 2xl:pe-[60px] rounded-[48px]
                                      bg-white border-cyan-500 border-t-[8px]">
@@ -890,8 +891,7 @@
                         class="2xl:text-3xl 2xl:leading-[116%] leading-[116%] xl:text-6xl lg:text-5xl md:text-[36px] text-2xl font-bold lg:max-w-[910px] max-w-2xl mx-auto px-3">
                         Businesses generate more revenue with Main Campaign</h2>
                 </div>
-                <div
-                    class="businesses-generate-slider slider max-w-[1500px] mx-auto gap-7 max-sm:mx-4">
+                <div class="businesses-generate-slider slider max-w-[1500px] mx-auto gap-7 max-sm:mx-4">
                     <div
                         class="bg-blue cs-shadow rounded-[48px] min-h-[446px] max-md:min-h-[400px] max-sm:min-h-[360px] max-sm:min-w-[320px] max-lg:min-w-[390px] min-w-[446px] pt-2">
                         <div
@@ -1023,7 +1023,7 @@
         </section>
 
         <!-- =========================== Scale section ================================== -->
-        <section class="px-3 lg:px-0 xl:pb-24 lg:pb-16 pb-12 lg:pt-11 pt-10 relative overflow-hidden">  
+        <section class="px-3 lg:px-0 xl:pb-24 lg:pb-16 pb-12 lg:pt-11 pt-10 relative overflow-hidden">
             <img class="absolute pointer-events-none -left-[0%] -bottom-[11%] lg:max-w-[686px] md:max-w-96 sm:max-w-64 max-w-52"
                 src="./assets/img/svg/scale-section-bg-img.svg" alt="blue-circle-img">
             <div class="container px-3 flex flex-col z-50 relative justify-center items-center ">
@@ -1167,22 +1167,24 @@
                             href="#Terms & Conditions"> &nbsp; • Terms & Conditions</a>
                     </div>
                     <div class="flex lg:gap-5 gap-4 lg:w-6/12 w-full lg:justify-end justify-center lg:mt-0 mt-3">
-                        <div class="size-[48px] bg-grayish-yellow flex justify-center items-center rounded-full">
-                            <a href="https://www.facebook.com/" target="_blank"><img
-                                    src="./assets/img/svg/facebook-logo-img.svg" alt="facebook-logo-img"></a>
-                        </div>
-                        <div class="size-[48px] bg-grayish-yellow flex justify-center items-center rounded-full">
-                            <a href="https://www.instagram.com/" target="_blank"><img
-                                    src="./assets/img/svg/instagram-logo-img.svg" alt="instagram-logo-img"></a>
-                        </div>
-                        <div class="size-[48px] bg-grayish-yellow flex justify-center items-center rounded-full">
-                            <a href="https://www.linkedin.com/" target="_blank"><img
-                                    src="./assets/img/svg/linked-in-logo-img.svg" alt="linked-in-logo-img"></a>
-                        </div>
-                        <div class="size-[48px] bg-grayish-yellow flex justify-center items-center rounded-full">
-                            <a href="https://www.creditbook.pk/" target="_blank"><img
-                                    src="./assets/img/svg/cb-logo-img.svg" alt="cb-logo-img"></a>
-                        </div>
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <div class="size-[48px] bg-grayish-yellow flex justify-center items-center rounded-full">
+                                <img src="./assets/img/svg/facebook-logo-img.svg" alt="facebook-logo-img">
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <div class="size-[48px] bg-grayish-yellow flex justify-center items-center rounded-full">
+                                <img src="./assets/img/svg/instagram-logo-img.svg" alt="instagram-logo-img">
+                            </div>
+                        </a><a href="https://www.linkedin.com/" target="_blank">
+                            <div class="size-[48px] bg-grayish-yellow flex justify-center items-center rounded-full">
+                                <img src="./assets/img/svg/linked-in-logo-img.svg" alt="linked-in-logo-img">
+                            </div>
+                        </a><a href="https://www.creditbook.pk/" target="_blank">
+                            <div class="size-[48px] bg-grayish-yellow flex justify-center items-center rounded-full">
+                                <img src="./assets/img/svg/cb-logo-img.svg" alt="cb-logo-img">
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
